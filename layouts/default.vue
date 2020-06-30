@@ -1,9 +1,15 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <Nuxt />
 </template>
+<script>
+import Scrollbar from 'smooth-scrollbar'
 
+export default {
+  mounted() {
+    Scrollbar.initAll()
+  },
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
