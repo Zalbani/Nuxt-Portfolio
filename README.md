@@ -1,11 +1,18 @@
 # Nuxt portfolio
 > Short blurb about what your product does.
 
-[![Node version](https://badgen.net/npm/types/vue)](http://nodejs.org/download/)
-[![Node version](https://badgen.net/npm/license/lodash)]()
-[![Build Status][travis-image]][travis-url]
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cce42dfb-4c50-4115-9d0a-bc97e409516b/deploy-status)](https://app.netlify.com/sites/friendly-newton-306e59/deploys)
+[![Dependencies](https://david-dm.org/Zalbani/Nuxt-Portfolio.svg)](https://david-dm.org/Zalbani/Nuxt-Portfolio)
+[![License](https://badgen.net/npm/license/lodash)]()
+
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/db92dbcfec4dfc407995/maintainability)](https://codeclimate.com/github/Zalbani/Nuxt-Portfolio/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/github/Zalbani/Nuxt-Portfolio/badge.svg)](https://snyk.io/test/github/Zalbani/Nuxt-Portfolio)
+[![CircleCI](https://circleci.com/gh/Zalbani/Nuxt-Portfolio.svg?style=shield)](https://app.circleci.com/pipelines/github/Zalbani/Nuxt-Portfolio)
+
+[![HitCount](http://hits.dwyl.com/Zalbani/Nuxt-Portfolio.svg)](http://hits.dwyl.com/Zalbani/Nuxt-Portfolio)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cce42dfb-4c50-4115-9d0a-bc97e409516b/deploy-status)](https://app.netlify.com/sites/friendly-newton-306e59/deploys)
+
+
 
 One to two paragraph statement about your product and what it does.
 
