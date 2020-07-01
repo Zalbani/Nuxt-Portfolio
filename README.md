@@ -1,28 +1,24 @@
 # Nuxt portfolio
-> Short blurb about what your product does.
+> Just a portfolio like one another
+<p align="center">
+  <img src="https://github.com/Zalbani/Nuxt-Portfolio/home.png" alt="portfolio screen"/>
+</p>
 
 [![Dependencies](https://david-dm.org/Zalbani/Nuxt-Portfolio.svg)](https://david-dm.org/Zalbani/Nuxt-Portfolio)
-[![License](https://badgen.net/npm/license/lodash)]()
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/db92dbcfec4dfc407995/maintainability)](https://codeclimate.com/github/Zalbani/Nuxt-Portfolio/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/Zalbani/Nuxt-Portfolio/badge.svg)](https://snyk.io/test/github/Zalbani/Nuxt-Portfolio)
+[![Maintainability](https://api.codeclimate.com/v1/badges/db92dbcfec4dfc407995/maintainability)](https://codeclimate.com/github/Zalbani/Nuxt-Portfolio/maintainability)
 [![CircleCI](https://circleci.com/gh/Zalbani/Nuxt-Portfolio.svg?style=shield)](https://app.circleci.com/pipelines/github/Zalbani/Nuxt-Portfolio)
 
+[![LastCommit](https://img.shields.io/github/last-commit/Zalbani/Nuxt-Portfolio?style=flat-square)](https://github.com/Zalbani/Nuxt-Portfolio/commits/master)
 [![HitCount](http://hits.dwyl.com/Zalbani/Nuxt-Portfolio.svg)](http://hits.dwyl.com/Zalbani/Nuxt-Portfolio)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cce42dfb-4c50-4115-9d0a-bc97e409516b/deploy-status)](https://app.netlify.com/sites/friendly-newton-306e59/deploys)
 
-
-
-One to two paragraph statement about your product and what it does.
-
-![](header.png)
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Nuxt.JS](https://github.com/nuxt/nuxt.js) - The vue framework for front developpement
+
 
 ## Installation
 
@@ -67,21 +63,10 @@ $ yarn generate
 
 ## Authors
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Alban Pierson – [@YourTwitter](https://twitter.com/dbader_org) – pro.pierson.alban@gmail.com
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+This project is licensed under the GNU GPL v3 License - see the [LICENSE.md](LICENSE.md) file for details
