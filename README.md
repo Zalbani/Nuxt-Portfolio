@@ -1,7 +1,7 @@
 # Nuxt portfolio
 > Just a portfolio like one another
 <p align="center">
-  <img src="https://github.com/Zalbani/Nuxt-Portfolio/home.png" alt="portfolio screen"/>
+  <img src="https://github.com/Zalbani/Nuxt-Portfolio/blob/master/home.png" alt="portfolio screen"/>
 </p>
 
 [![Dependencies](https://david-dm.org/Zalbani/Nuxt-Portfolio.svg)](https://david-dm.org/Zalbani/Nuxt-Portfolio)
