@@ -18,7 +18,9 @@
 
 # Nuxt portfolio
 > Just a portfolio like one another
->
+
+Deploy with netlify available at :  https://www.nuxt.zalbani.dev/
+
 ## Built With
 
 * [Nuxt.JS](https://github.com/nuxt/nuxt.js) - The vue framework for front developpement
