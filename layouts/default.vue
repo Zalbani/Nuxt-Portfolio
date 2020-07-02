@@ -17,8 +17,6 @@
     <div id="particles-js" style="position: fixed; z-index: -1;"></div>
     <Nuxt class="container" data-scrollbar />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
   </div>
 </template>
 <script>
