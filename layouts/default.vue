@@ -1,5 +1,25 @@
 <template>
-  <Nuxt />
+  <div>
+    <script src="https://use.fontawesome.com/72ff95ef45.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mef.css" />
+    <link rel="stylesheet" href="css/typo.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+    />
+    <div id="particles-js" style="position: fixed; z-index: -1;"></div>
+    <Nuxt class="container" data-scrollbar />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+  </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
@@ -29,33 +49,9 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.container {
+  overflow: auto;
+  height: 100vh;
+  width: 100%;
 }
 </style>
