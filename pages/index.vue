@@ -5,7 +5,9 @@
       <hr />
       <h2>Développeur Full-Stack</h2>
       <hr />
-      <button class="scroll-down" @click="test">ME DECOUVRIR</button>
+      <button class="scroll-down" @click="scrollTo('.desc')">
+        ME DECOUVRIR
+      </button>
     </section>
     <section class="desc">
       <h2 class="vanish">Je me décrit.</h2>
@@ -202,16 +204,15 @@
   </div>
 </template>
 <script>
-import smooth from 'smooth-scrollbar'
+import Scrollbar from 'smooth-scrollbar'
 
 export default {
   methods: {
-    test(event) {
-      const allBar = smooth.getAll()
-      const posScrollTo = this.$el
-        .querySelector('.desc')
-        .getBoundingClientRect()
-      allBar[0].scrollTo(0, posScrollTo.top, 500)
+    scrollTo(elem) {
+      // Get element position to scroll to
+      const posScrollTo = this.$el.querySelector(elem).getBoundingClientRect()
+      // Move the scroll bar to the element position
+      Scrollbar.getAll()[0].scrollTo(0, posScrollTo.top, 500)
     },
   },
 }
