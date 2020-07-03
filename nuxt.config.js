@@ -35,7 +35,7 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    {src: '~/plugins/particles.js', mode: 'client'},
+    {src: '~/plugins/particles.js', mode: 'client'}
     ],
   /*
    ** Auto import components
@@ -53,7 +53,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
   ],

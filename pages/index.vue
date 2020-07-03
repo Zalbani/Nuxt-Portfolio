@@ -5,7 +5,7 @@
       <hr />
       <h2>Développeur Full-Stack</h2>
       <hr />
-      <button class="scroll-down">ME DECOUVRIR</button>
+      <button class="scroll-down" @click="test">ME DECOUVRIR</button>
     </section>
     <section class="desc">
       <h2 class="vanish">Je me décrit.</h2>
@@ -90,6 +90,7 @@
       ><!-- @whitespace
 --><a href="html/presentation_projet_ESHL.html">
         <figure>
+          <p id="element">test</p>
           <img
             src="medias/images/projet_eshl/presentation_mokup_a.jpg"
             alt="Présentation_appliquée_projet_eshl"
@@ -193,10 +194,25 @@
           <div class="title">MMI</div>
           <div class="body">
             <p class="spe">Etudiant</p>
-            <p class="date">2016 - 2018</p>
+            <p id="eck" class="date">2016 - 2018</p>
           </div>
         </div>
       </div>
     </section>
   </div>
 </template>
+<script>
+import smooth from 'smooth-scrollbar'
+
+export default {
+  methods: {
+    test(event) {
+      const allBar = smooth.getAll()
+      const posScrollTo = this.$el
+        .querySelector('.desc')
+        .getBoundingClientRect()
+      allBar[0].scrollTo(0, posScrollTo.top, 500)
+    },
+  },
+}
+</script>
