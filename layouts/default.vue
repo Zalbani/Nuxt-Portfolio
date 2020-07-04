@@ -16,13 +16,19 @@
     />
     <div id="particles-js" style="position: fixed; z-index: -1;"></div>
     <Nuxt class="container" data-scrollbar />
+    <Footer />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
+import Footer from '~/components/Footer'
+
 export default {
+  components: {
+    Footer,
+  },
   mounted() {
     Scrollbar.initAll()
   },
