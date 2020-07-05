@@ -1,33 +1,24 @@
 <template>
-  <div>
-    <script src="https://use.fontawesome.com/72ff95ef45.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mef.css" />
-    <link rel="stylesheet" href="css/typo.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
-    />
+  <div class="container" data-scrollbar>
+    <Header />
+    <Rs />
     <div id="particles-js" style="position: fixed; z-index: -1;"></div>
-    <Nuxt class="container" data-scrollbar />
+    <Nuxt />
     <Footer />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
 import Footer from '~/components/Footer'
+import Header from '~/components/Header'
+import Rs from '~/components/Rs'
 
 export default {
   components: {
     Footer,
+    Header,
+    Rs,
   },
   mounted() {
     Scrollbar.initAll()

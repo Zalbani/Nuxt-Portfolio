@@ -29,13 +29,14 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    {src: '~/plugins/particles.js', mode: 'client'}
+    {src: '~/plugins/particles.js', mode: 'client'},
+    {src: '~/plugins/fontawesome.js'}
     ],
   /*
    ** Auto import components
