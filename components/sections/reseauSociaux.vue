@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="media in medias" :key="media.id">
-      <SocailMedia
+      <socialMedia
         :over-color="media.overColor"
         :url="media.url"
         :icon-prefix="media.iconPrefix"
@@ -11,11 +11,11 @@
   </ul>
 </template>
 <script>
-import SocailMedia from '~/components/oneSocialMedia'
+import socialMedia from '~/components/oneSocialMedia'
 
 export default {
   components: {
-    SocailMedia,
+    socialMedia,
   },
   data() {
     return {

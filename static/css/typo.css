@@ -48,18 +48,6 @@ p {
     font-weight: 100;
 }
 
-.compet > article > h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-}
-
-.compet > article > p {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-weight: 100;
-}
-
 .real > a > figure > figcaption > p:first-of-type {
     font-size: 17px;
 }

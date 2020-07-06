@@ -101,34 +101,6 @@ section {
     border: none;
 }
 
-.compet > h2 {
-    padding-top: 420px;
-    text-align: center;
-    color: white;
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    width: 60%;
-}
-
-.compet > article {
-    color: white;
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    width: 40%;
-    padding-top: 120px;
-}
-
-.compet > article > h3 {
-    color: #4BD0D0;
-}
-
-.compet > article > p {
-    color: white;
-    padding-bottom: 10px;
-}
-
 .real {
     background-color: #EFEFEF;
     padding-left: 10%;
@@ -440,16 +412,7 @@ section {
         width: 180px;
     }
 
-    .compet > h2 {
-        width: 100%;
-        padding-top: 40px;
-    }
 
-    .compet > article {
-        width: 100%;
-        text-align: center;
-        padding-top: 9%;
-    }
 
     .real {
         padding: 0;

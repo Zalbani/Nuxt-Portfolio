@@ -31,39 +31,7 @@
         </p>
       </article>
     </section>
-    <section class="compet">
-      <h2>Mon savoir faire</h2>
-      <!-- @whitespace
--->
-      <article>
-        <h3>HTML</h3>
-        <p>Sémantique / W3C / Vue</p>
-        <br />
-        <h3>CSS</h3>
-        <p>Bootstrap / Sass / Less / Foundation / Responsive</p>
-        <br />
-        <h3>CMS</h3>
-        <p>Wordpress</p>
-        <br />
-        <h3>JavaScript</h3>
-        <p>Jquery / Angular JS / Ionic Cordova / ThreeJS / D3</p>
-        <br />
-        <h3>BackEnd</h3>
-        <p>PHP / MySQL / NodeJS / MongoDB</p>
-        <br />
-        <h3>Développement</h3>
-        <p>Git / Web Services / API</p>
-        <br />
-        <h3>Referencement</h3>
-        <p>SEO / SEA / SMO</p>
-        <br />
-        <h3>Graphisme</h3>
-        <P>Photoshop / Illustrator / Indesign / XD</P>
-        <br />
-        <h3>Audiovisuel</h3>
-        <p>Premiere pro / After Effect</p>
-      </article>
-    </section>
+    <sectionCompetences />
     <section class="real">
       <h2>Mes réalisations</h2>
       <a href="html/presentation_projet_fast_cafet.html">
@@ -206,7 +174,12 @@
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
+import sectionCompetences from '~/components/sections/competences'
+
 export default {
+  components: {
+    sectionCompetences,
+  },
   methods: {
     scrollTo(elem) {
       // Get element position to scroll to
