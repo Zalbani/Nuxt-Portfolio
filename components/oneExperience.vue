@@ -122,7 +122,15 @@ export default {
     display: none;
   }
   .entry {
-    width: auto;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .entry:not(:first-child) {
+    margin-top: -40px;
+  }
+  .entry:nth-child(2n) {
+    margin-bottom: 40px;
   }
 }
 </style>

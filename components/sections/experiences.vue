@@ -31,7 +31,7 @@ export default {
           image: {
             url: 'medias/images/bml.png',
             imageAlt: '',
-            width: '220',
+            width: '180',
             height: '100',
           },
         },
@@ -148,6 +148,10 @@ export default {
 @media only screen and (max-width: 767px) {
   .expe {
     padding: 0;
+  }
+
+  .expe:before {
+    display: none;
   }
 
   .expe > h2 {

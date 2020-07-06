@@ -32,22 +32,22 @@
       </article>
     </section>
     <section-competences />
-    <section-realisation />
-    <section-experience />
+    <section-realisations />
+    <section-experiences />
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
 import sectionCompetences from '~/components/sections/competences'
-import sectionExperience from '~/components/sections/experiences'
-import sectionRealisation from '~/components/sections/realisations'
+import sectionExperiences from '~/components/sections/experiences'
+import sectionRealisations from '~/components/sections/realisations'
 
 export default {
   components: {
     sectionCompetences,
-    sectionExperience,
-    sectionRealisation,
+    sectionExperiences,
+    sectionRealisations,
   },
   methods: {
     scrollTo(elem) {
@@ -181,6 +181,23 @@ export default {
 }
 
 @media only screen and (max-width: 767px) {
+  .head > h1 {
+    font-size: 36px;
+    letter-spacing: 0.4px;
+  }
+
+  .head > h2 {
+    font-size: 34px;
+    letter-spacing: 0.4px;
+  }
+  .desc > article > h2,
+  .desc > article > p {
+    font-size: 16px;
+  }
+
+  .desc > button {
+    font-size: 18px;
+  }
   .head > hr:last-of-type {
     display: none;
   }
@@ -192,6 +209,7 @@ export default {
   .head > hr:first-of-type {
     height: 2px;
     width: 50%;
+    margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 30px;
   }

@@ -61,4 +61,10 @@ footer > h4 {
 footer > a > p {
   font-size: 14px;
 }
+@media only screen and (max-width: 767px) {
+  footer {
+    display: inline-block;
+    width: 100%;
+  }
+}
 </style>

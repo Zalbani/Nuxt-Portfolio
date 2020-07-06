@@ -128,15 +128,21 @@ export default {
 }
 
 @media only screen and (max-width: 767px) {
+  .compet {
+    display: unset;
+  }
   .compet > h2 {
     width: 100%;
     padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.2px;
   }
 
   .compet > article {
     width: 100%;
-    text-align: center;
-    padding-top: 9%;
+    text-align: left;
+    padding: 9% 20px 20px 20px;
   }
 }
 </style>

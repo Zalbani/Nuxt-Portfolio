@@ -101,24 +101,6 @@ p {
         font-size: 32px;
         letter-spacing: 0.2px;
     }
-
-    .head > h1 {
-        font-size: 36px;
-        letter-spacing: 0.4px;
-    }
-
-    .head > h2 {
-        font-size: 34px;
-        letter-spacing: 0.4px;
-    }
-
-    .desc > article > h2, .desc > article > p {
-        font-size: 16px;
-    }
-
-    .desc > button {
-        font-size: 18px;
-    }
     .compet>article>h3{
         font-size: 14px;
     }
