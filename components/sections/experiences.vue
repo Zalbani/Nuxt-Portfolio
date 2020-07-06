@@ -80,13 +80,13 @@ export default {
 <style scoped>
 .expe {
   position: relative;
-  height: 140vh;
+  height: 1250px;
 }
 .expe:before {
   content: '';
   position: absolute;
   top: 250px;
-  height: 72vh;
+  height: 930px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
