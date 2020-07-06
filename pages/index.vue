@@ -31,7 +31,7 @@
         </p>
       </article>
     </section>
-    <sectionCompetences />
+    <section-competences />
     <section class="real">
       <h2>Mes réalisations</h2>
       <a href="html/presentation_projet_fast_cafet.html">
@@ -60,7 +60,6 @@
       ><!-- @whitespace
 --><a href="html/presentation_projet_ESHL.html">
         <figure>
-          <p id="element">test</p>
           <img
             src="medias/images/projet_eshl/presentation_mokup_a.jpg"
             alt="Présentation_appliquée_projet_eshl"
@@ -96,89 +95,19 @@
         </figure>
       </a>
     </section>
-    <section class="expe">
-      <h2>Mon expérience</h2>
-      <div class="entries">
-        <div class="entry">
-          <div class="title big">
-            <img
-              src="medias/images/bml.png"
-              height="100"
-              width="220"
-              alt="Logo_comete"
-            />
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">Bibliotheque Municipale de Lyon</div>
-          <div class="body">
-            <p class="spe">Webmestre</p>
-            <p class="date">2018 - 2021</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title big">
-            <img
-              src="medias/images/ynov.png"
-              height="100"
-              width="220"
-              alt="Logo_comete"
-            />
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">Master Informatique</div>
-          <div class="body">
-            <p class="spe">Etudiant</p>
-            <p class="date">2018 - 2021</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title big">
-            <img
-              src="medias/images/comete.png"
-              height="125"
-              width="100"
-              alt="Logo_comete"
-            />
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">Comète</div>
-          <div class="body">
-            <p class="spe">Développeur Full-Stack</p>
-            <p class="date">2018</p>
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title big">
-            <img
-              src="medias/images/mmi.jpg"
-              height="100"
-              width="100"
-              alt="Logo_MMI"
-            />
-          </div>
-        </div>
-        <div class="entry">
-          <div class="title">MMI</div>
-          <div class="body">
-            <p class="spe">Etudiant</p>
-            <p id="eck" class="date">2016 - 2018</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section-experience />
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
 import sectionCompetences from '~/components/sections/competences'
+import sectionExperience from '~/components/sections/experiences'
 
 export default {
   components: {
     sectionCompetences,
+    sectionExperience,
   },
   methods: {
     scrollTo(elem) {

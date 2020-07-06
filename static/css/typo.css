@@ -56,21 +56,6 @@ p {
     font-size: 12px;
 }
 
-.expe > figure > figcaption > article > h3 {
-    font-size: 29px;
-}
-
-.expe > figure > figcaption > article > p {
-    font-size: 27px;
-}
-
-.contact >a> button {
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-    font-weight: 100;
-}
-
  ul  > li > a{
     font-size: 28px;
 }
@@ -153,28 +138,9 @@ footer > a > p {
 }
 
 
-.spe{
-    font-size: 27px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-}
-.date{
-    font-family: "Roboto", sans-serif;
-    font-size: 27px;
-    font-weight: 100;
-}
-.title {
-    font-size: 32px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-}
-
-
-
-
 
 @media only screen and (max-width: 767px) {
-    .compet > h2, .real > h2, .expe > h2, .contact > h2 {
+    .compet > h2, .real > h2, .expe > h2 {
         font-family: 'Open Sans', sans-serif;
         font-size: 32px;
         letter-spacing: 0.2px;
@@ -209,21 +175,6 @@ footer > a > p {
     }
     .real>a>figure>figcaption>p:last-of-type{
         font-size: 12px;
-    }
-    .expe>figure>figcaption>article>h3{
-        font-size: 20px;
-    }
-    .expe>figure>figcaption>article>p:first-of-type{
-        font-size: 18px;
-    }
-    .expe>figure>figcaption>article>p:last-of-type{
-        font-size: 16px;
-    }
-    .contact>ul>a>li{
-        font-size: 22px;
-    }
-    .contact>a>button{
-        font-size: 20px;
     }
 
 
