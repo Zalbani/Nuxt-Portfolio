@@ -47,18 +47,23 @@ export default {
   font-size: 27px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  margin: 0;
+  margin-top: 10px;
+  color: white;
 }
 .date {
   font-family: 'Roboto', sans-serif;
   font-size: 27px;
   font-weight: 100;
+  margin: 0;
+  margin-top: 14px;
+  color: white;
 }
 .title {
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-
 .entry {
   width: calc(50% - 55px);
   float: left;

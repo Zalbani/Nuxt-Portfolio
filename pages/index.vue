@@ -32,69 +32,7 @@
       </article>
     </section>
     <section-competences />
-    <section class="real">
-      <h2>Mes réalisations</h2>
-      <a href="html/presentation_projet_fast_cafet.html">
-        <figure>
-          <img
-            src="medias/images/projet_fast_cafet/fast_presentation.jpg"
-            alt="Présentation_appliquée_projet_e-comerce_cafeteria_universitaire"
-          />
-          <figcaption>
-            <p>Fast'Cafet</p>
-            <p>Design & Integration</p>
-          </figcaption>
-        </figure> </a
-      ><!-- @whitespace
---><a href="html/presentation_projet_reve_julia.html">
-        <figure>
-          <img
-            src="medias/images/projet_reve_julia/presentation_mokup.jpg"
-            alt="Présentation_appliquée_projet_information_cancer"
-          />
-          <figcaption>
-            <p>Le rêve de Julia</p>
-            <p>Integration Front & Back</p>
-          </figcaption>
-        </figure> </a
-      ><!-- @whitespace
---><a href="html/presentation_projet_ESHL.html">
-        <figure>
-          <img
-            src="medias/images/projet_eshl/presentation_mokup_a.jpg"
-            alt="Présentation_appliquée_projet_eshl"
-          />
-          <figcaption>
-            <p>ESHL</p>
-            <p>Design & Integration</p>
-          </figcaption>
-        </figure> </a
-      ><!-- @whitespace
---><a href="html/presentation_diagnostick.html">
-        <figure>
-          <img
-            src="medias/images/diagnostick/Mockup_a.jpg"
-            alt="Présentation_appliquée_projet_diagnostick"
-          />
-          <figcaption>
-            <p>Diagnostick</p>
-            <p>Developpement & Integration</p>
-          </figcaption>
-        </figure> </a
-      ><!-- @whitespace
---><a href="html/presentation_carte_interactive.html">
-        <figure>
-          <img
-            src="medias/images/carte_interactive/mockup_carre_a.jpg"
-            alt="Présentation_appliquée_projet_information_carte_interactive"
-          />
-          <figcaption>
-            <p>Carte intéractive</p>
-            <p>Developpement & Integration</p>
-          </figcaption>
-        </figure>
-      </a>
-    </section>
+    <section-realisation />
     <section-experience />
   </div>
 </template>
@@ -103,11 +41,13 @@ import Scrollbar from 'smooth-scrollbar'
 
 import sectionCompetences from '~/components/sections/competences'
 import sectionExperience from '~/components/sections/experiences'
+import sectionRealisation from '~/components/sections/realisations'
 
 export default {
   components: {
     sectionCompetences,
     sectionExperience,
+    sectionRealisation,
   },
   methods: {
     scrollTo(elem) {
@@ -119,3 +59,163 @@ export default {
   },
 }
 </script>
+<style scoped>
+.head {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.head hr:first-of-type {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  background-color: white;
+  height: 3px;
+  border: none;
+}
+
+.head hr:last-of-type {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  width: 10%;
+  color: white;
+  background-color: white;
+  height: 3px;
+  border: none;
+  display: none;
+}
+
+.head > h1 {
+  padding-top: 190px;
+  margin: 0;
+}
+
+.head > button {
+  margin-top: 120px;
+  border-radius: 4px;
+  border: 1px white solid;
+  background: none;
+  color: white;
+  padding: 16px;
+  padding-right: 25px;
+  padding-left: 25px;
+  transition-duration: 0.4s;
+}
+
+.head > button:hover {
+  transition-duration: 0.4s;
+  background: white;
+  color: black;
+}
+.desc {
+  background-color: #efefef;
+  height: auto;
+}
+.desc > article {
+  padding-bottom: 15%;
+}
+
+.desc > article > h2 {
+  color: black;
+  padding-bottom: 25px;
+  padding-top: 15%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.desc > article > p {
+  color: #525252;
+  padding-bottom: 15px;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.desc > button {
+  margin-top: 120px;
+  margin-left: 15%;
+  background-color: #efefef;
+  border: none;
+  text-align: left;
+}
+
+.desc > button > hr {
+  margin-top: 10px;
+  width: 250px;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.head > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 90px;
+  letter-spacing: 0.8px;
+  font-weight: 100;
+}
+
+.head > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 85px;
+  letter-spacing: 0.8px;
+  font-weight: 100;
+}
+
+.head > button {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.desc > article > h2 {
+  font-size: 25px;
+}
+
+.desc > article > p {
+  font-size: 25px;
+}
+
+.desc > button {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .head > hr:last-of-type {
+    display: none;
+  }
+
+  .head > button {
+    margin-top: 120px;
+  }
+
+  .head > hr:first-of-type {
+    height: 2px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .desc > article {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .desc > article > h2,
+  .desc > article > p {
+    padding: 5%;
+    padding-bottom: 4%;
+    padding-top: 0;
+  }
+
+  .desc > button {
+    padding: 0;
+    margin-top: 8%;
+    margin-left: 25px;
+  }
+
+  .desc > button > hr {
+    width: 180px;
+  }
+}
+</style>

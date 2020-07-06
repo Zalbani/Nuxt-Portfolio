@@ -54,4 +54,11 @@ footer > a > hr {
   border: none;
   height: 2px;
 }
+footer > h4 {
+  font-size: 14px;
+}
+
+footer > a > p {
+  font-size: 14px;
+}
 </style>

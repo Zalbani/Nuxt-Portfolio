@@ -276,13 +276,13 @@ main{
     text-decoration: none;
     transition: color 0.2s ease;
     color: #4b86d0;
-    
+
 }
 .expli>p>a:hover{
     text-decoration: none;
     transition: color 0.2s ease;
     color: #4BD0D0;
-    
+
 }
 
 .maquet>hr{
@@ -290,14 +290,6 @@ main{
     height: 2px;
     border: none;
 }
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 767px) {
     .expli{
         padding: 5%;

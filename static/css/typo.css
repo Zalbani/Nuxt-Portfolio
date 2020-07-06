@@ -10,37 +10,6 @@ p {
     padding: 0;
 }
 
-.head > h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 90px;
-    letter-spacing: 0.8px;
-    font-weight: 100;
-}
-
-.head > h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 85px;
-    letter-spacing: 0.8px;
-    font-weight: 100;
-}
-
-.head > button {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 1px;
-}
-
-.desc > article > h2 {
-    font-size: 25px;
-}
-
-.desc > article > p {
-    font-size: 25px;
-}
-
-.desc > button {
-    font-size: 25px;
-}
-
 .compet > h2, .real > h2, .expe > h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
@@ -59,16 +28,6 @@ p {
  ul  > li > a{
     font-size: 28px;
 }
-
-footer > h4 {
-    font-size: 14px;
-}
-
-footer > a > p {
-    font-size: 14px;
-}
-
-
 .headp>h1{
     font-family: "Roboto", sans-serif;
     font-size: 50px;
@@ -136,9 +95,6 @@ footer > a > p {
     font-size: 40px;
     font-weight: 100;
 }
-
-
-
 @media only screen and (max-width: 767px) {
     .compet > h2, .real > h2, .expe > h2 {
         font-family: 'Open Sans', sans-serif;
@@ -169,12 +125,6 @@ footer > a > p {
     .compet>article>p{
         font-size: 16px;
         padding-bottom: 0;
-    }
-    .real>a>figure>figcaption>p:first-of-type{
-        font-size: 16px;
-    }
-    .real>a>figure>figcaption>p:last-of-type{
-        font-size: 12px;
     }
 
 
