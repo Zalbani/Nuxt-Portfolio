@@ -21,3 +21,37 @@ export default {
   },
 }
 </script>
+<style>
+footer {
+  background-color: #efefef;
+  padding-bottom: 10px;
+}
+
+footer > h4 {
+  color: #525252;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+footer > a {
+  text-decoration: none;
+}
+
+footer > a > p {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border: none;
+  margin: 0 auto;
+  color: #525252;
+  text-align: center;
+}
+
+footer > a > hr {
+  margin-top: 4px;
+  width: 70px;
+  background-color: #525252;
+  border: none;
+  height: 2px;
+}
+</style>

@@ -1,24 +1,28 @@
 <template>
-  <div class="container" data-scrollbar>
-    <Header />
-    <Rs />
-    <div id="particles-js" style="position: fixed; z-index: -1;"></div>
-    <Nuxt />
-    <Footer />
+  <div>
+    <Particles />
+    <main class="container" data-scrollbar>
+      <FloatingLinks />
+      <Header />
+      <Nuxt />
+      <Footer />
+    </main>
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
+import Particles from '~/components/Particles'
 import Footer from '~/components/Footer'
 import Header from '~/components/Header'
-import Rs from '~/components/Rs'
+import FloatingLinks from '~/components/sections/reseauSociaux'
 
 export default {
   components: {
+    Particles,
     Footer,
     Header,
-    Rs,
+    FloatingLinks,
   },
   mounted() {
     Scrollbar.initAll()
