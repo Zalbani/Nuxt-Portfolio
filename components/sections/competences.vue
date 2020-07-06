@@ -28,7 +28,7 @@ export default {
         {
           id: 0,
           name: 'HTML',
-          competences: ['Sémantique', 'W3C', 'Vue'],
+          competences: ['Sémantique', 'W3C'],
         },
         {
           id: 1,
@@ -49,14 +49,7 @@ export default {
         {
           id: 3,
           name: 'JavaScript',
-          competences: [
-            'Vue.js',
-            'Nuxt.js',
-            'Node',
-            'Angular',
-            'ThreeJs',
-            'D3',
-          ],
+          competences: ['Vue', 'Nuxt', 'Node', 'Angular', 'ThreeJs', 'D3'],
         },
         {
           id: 4,
