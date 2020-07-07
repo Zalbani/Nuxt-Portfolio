@@ -127,11 +127,7 @@ main{
     margin-bottom: 70px;
 }
 
-.couleur {
-    height: 150px;
-    width: 150px;
-    background-color: #0e76a8;
-}
+
 
 .detail > article {
     text-align: center;
@@ -191,13 +187,6 @@ main{
     width: 20%;
 }
 
-.shield {
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    width: 200px;
-    padding: 3%;
-}
 
 .maquet {
     text-align: center;
@@ -314,11 +303,6 @@ main{
         margin-right: 3.5%;
         margin-bottom: 45px;
     }
-
-    .couleur{
-        width: 100%;
-        height: 100px;
-    }
     .detail>article>h2{
         padding-top: 15px;
     }
@@ -349,9 +333,6 @@ main{
         margin: 0;
         padding-left: 25px;
         width: 60%;
-    }
-    .shield{
-        width: 32%;
     }
     .maquet>img:first-of-type{
         margin: 5%;

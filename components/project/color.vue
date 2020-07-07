@@ -18,3 +18,15 @@ export default {
   },
 }
 </script>
+<style scoped>
+.couleur {
+  height: 150px;
+  width: 150px;
+}
+@media only screen and (max-width: 767px) {
+  .couleur {
+    width: 100%;
+    height: 100px;
+  }
+}
+</style>

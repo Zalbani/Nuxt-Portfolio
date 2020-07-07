@@ -53,25 +53,10 @@
         </figure>
         <h2>Technologies</h2>
         <hr class="grand" />
-        <img
-          src="/medias/images/V_Tech/HTML.png"
-          class="shield"
-          alt="technologie_hTML"
-        />
-        <img
-          src="/medias/images/V_Tech/CSS.png"
-          class="shield"
-          alt="technologie_css"
-        />
-        <img
-          src="/medias/images/V_Tech/php.png"
-          class="shield"
-          alt="technologie_php"
-        />
-        <img
-          src="/medias/images/V_Tech/Jqwerie.png"
-          class="shield"
-          alt="technologie_jqwerie"
+        <techno
+          v-for="(techno, index) in project.technos"
+          :key="index"
+          :techno="techno"
         />
       </article>
     </section>
@@ -83,15 +68,16 @@
   </main>
 </template>
 <script>
-import Color from '~/components/project/color'
+import color from '~/components/project/color'
+import techno from '~/components/project/techno'
 export default {
-  components: { Color },
+  components: { color, techno },
   data() {
     return {
       project: {
         id: 0,
         colors: ['#111A1C', '#E7511E', '#eb9230'],
-        technos: ['HTML', 'CSS', 'PHP', 'Jquerry'],
+        technos: ['HTML', 'CSS', 'PHP', 'Jquery'],
         title: "Fast'Cafet",
         actions: 'Design & Integration',
         description:
