@@ -7,18 +7,12 @@
       </svg>
     </a>
     <section class="headp">
-      <h1>Fast'Cafet</h1>
-      <h2>Design & Intégration</h2>
+      <h1>{{ project.title }}</h1>
+      <h2>{{ project.actions }}</h2>
     </section>
     <section class="expli">
       <p>
-        Ce site web est un site d'e-commerce pour la caféteria du campus de
-        Montbéliard.
-      </p>
-      <p>
-        Il est destiné à résoudre les problématiques de lenteur de la file
-        d'attente et du problème de disponibilité des produits souhaités par les
-        étudiants.
+        {{ project.description }}
       </p>
       <img
         src="/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg"
@@ -38,24 +32,11 @@
 
         <h3>Couleurs</h3>
         <hr class="petit" />
-        <figure class="hc">
-          <div class="couleur c1" style="background-color: #eb9230;"></div>
-          <figcaption>
-            <p>#EB9230</p>
-          </figcaption>
-        </figure>
-        <figure class="hc">
-          <div class="couleur c2" style="background-color: #e7511e;"></div>
-          <figcaption>
-            <p>#E7511E</p>
-          </figcaption>
-        </figure>
-        <figure class="hc">
-          <div class="couleur c3" style="background-color: #111a1c;"></div>
-          <figcaption>
-            <p>#111A1C</p>
-          </figcaption>
-        </figure>
+        <color
+          v-for="(color, index) in project.colors"
+          :key="index"
+          :color="color"
+        />
         <h3>Typographies</h3>
         <hr class="petit2" />
         <figure class="typo">
@@ -102,7 +83,29 @@
   </main>
 </template>
 <script>
+import Color from '~/components/project/color'
 export default {
+  components: { Color },
+  data() {
+    return {
+      project: {
+        id: 0,
+        colors: ['#111A1C', '#E7511E', '#eb9230'],
+        technos: ['HTML', 'CSS', 'PHP', 'Jquerry'],
+        title: "Fast'Cafet",
+        actions: 'Design & Integration',
+        description:
+          "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard." +
+          "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
+        url: 'html/presentation_projet_fast_cafet.html',
+        image: {
+          url: 'medias/images/projet_fast_cafet/fast_presentation.jpg',
+          imageAlt:
+            'Présentation appliquée projet e-comerce cafeteria universitaire',
+        },
+      },
+    }
+  },
   layout: 'project',
 }
 </script>
