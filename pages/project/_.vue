@@ -1,28 +1,34 @@
 <template>
   <main>
-    <a href="presentation_diagnostick.html">
+    <nuxt-link
+      v-if="parseInt($route.params.pathMatch, 10) != projects.length - 1"
+      :to="(parseInt($route.params.pathMatch, 10) + 1).toString()"
+    >
       <svg class="arrow" viewBox="0 0 85 85">
         <path class="arrow-out" d="M37.5 23.5l15 19-15 19" />
         <path class="arrow-in" d="M2.092 23.5l15 19-15 19" />
       </svg>
-    </a>
-    <a href="presentation_projet_reve_julia.html">
+    </nuxt-link>
+    <nuxt-link
+      v-if="parseInt($route.params.pathMatch, 10) != 0"
+      :to="(parseInt($route.params.pathMatch, 10) - 1).toString()"
+    >
       <svg class="arrow right" viewBox="0 0 85 85">
         <path class="arrow-out" d="M37.5 23.5l15 19-15 19" />
         <path class="arrow-in" d="M2.092 23.5l15 19-15 19" />
       </svg>
-    </a>
+    </nuxt-link>
     <section class="headp">
-      <h1>{{ project.title }}</h1>
-      <h2>{{ project.actions }}</h2>
+      <h1>{{ projects[$route.params.pathMatch].title }}</h1>
+      <h2>{{ projects[$route.params.pathMatch].actions }}</h2>
     </section>
     <section class="expli">
       <p>
-        {{ project.description }}
+        {{ projects[$route.params.pathMatch].description }}
       </p>
       <img
-        src="/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg"
-        alt="image_presentation_projet"
+        :src="projects[$route.params.pathMatch].mockup.url"
+        :alt="projects[$route.params.pathMatch].mockup.imageAlt"
       />
     </section>
     <section class="detail">
@@ -39,7 +45,7 @@
         <h3>Couleurs</h3>
         <hr class="petit" />
         <color
-          v-for="(color, index) in project.colors"
+          v-for="(color, index) in projects[$route.params.pathMatch].colors"
           :key="index"
           :color="color"
         />
@@ -57,7 +63,7 @@
         <h2>Technologies</h2>
         <hr class="grand" />
         <techno
-          v-for="(techno, index) in project.technos"
+          v-for="(techno, index) in projects[$route.params.pathMatch].technos"
           :key="index"
           :techno="techno"
         />
@@ -73,27 +79,12 @@
 <script>
 import color from '~/components/project/color'
 import techno from '~/components/project/techno'
+
+import projects from '~/static/projects.json'
 export default {
   components: { color, techno },
   data() {
-    return {
-      project: {
-        id: 0,
-        colors: ['#111A1C', '#E7511E', '#eb9230'],
-        technos: ['HTML', 'CSS', 'PHP', 'Jquery'],
-        title: "Fast'Cafet",
-        actions: 'Design & Integration',
-        description:
-          "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard." +
-          "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
-        url: 'html/presentation_projet_fast_cafet.html',
-        image: {
-          url: 'medias/images/projet_fast_cafet/fast_presentation.jpg',
-          imageAlt:
-            'Présentation appliquée projet e-comerce cafeteria universitaire',
-        },
-      },
-    }
+    return { projects }
   },
   layout: 'project',
 }
