@@ -3,6 +3,7 @@ main{
 }
 .headp{
     background-image: url("../medias/images/fondufinal.jpg");
+    background-size: cover;
 }
 .sectionlead{
     font-size: 32px;

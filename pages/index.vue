@@ -5,17 +5,19 @@
       <hr />
       <h2>Développeur Full-Stack</h2>
       <hr />
-      <button class="scroll-down" @click="scrollTo('.desc')">
-        ME DECOUVRIR
+      <button class="scroll-down" @click="scrollTo('#sectionReal')">
+        ME DECOUVRIR !
       </button>
     </section>
+    <section-realisations id="sectionReal" />
+    <section-experiences />
     <section class="desc">
-      <h2 class="vanish">Je me décrit.</h2>
+      <h2 class="me">Qui suis-je ?</h2>
       <article>
-        <h2>
+        <p>
           Développeur Web curieux et autonome, étudiant en Master expert
           developpeur web à Ynov Informatique - Lyon.
-        </h2>
+        </p>
         <br />
         <p>
           Passionné par le Web et tout ce qui l'entoure, plus particulièrement
@@ -32,8 +34,6 @@
       </article>
     </section>
     <section-competences />
-    <section-realisations />
-    <section-experiences />
   </div>
 </template>
 <script>
@@ -60,6 +60,15 @@ export default {
 }
 </script>
 <style scoped>
+h2.me {
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  letter-spacing: 0.4px;
+  font-weight: 100;
+}
 .head {
   color: white;
   text-align: center;

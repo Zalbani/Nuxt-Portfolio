@@ -1,6 +1,6 @@
 <template>
   <section class="expe">
-    <h2>Mon expérience</h2>
+    <h2>Mes expériences</h2>
     <div class="entries">
       <experience
         v-for="experience in experiences"
