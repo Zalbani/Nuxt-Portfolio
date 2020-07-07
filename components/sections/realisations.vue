@@ -1,17 +1,17 @@
 <template>
   <section class="real">
     <h2>Mes réalisations</h2>
-    <a
+    <nuxt-link
       v-for="realisation in realisations"
       :key="realisation.id"
-      :href="realisation.url"
+      :to="{ path: '/project/' + realisation.title }"
     >
       <realisation
         :title="realisation.title"
         :actions="realisation.actions"
         :image="realisation.image"
       />
-    </a>
+    </nuxt-link>
   </section>
 </template>
 <script>
