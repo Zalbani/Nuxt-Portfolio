@@ -86,7 +86,6 @@ export default {
   data() {
     return { projects }
   },
-  layout: 'project',
 }
 </script>
 <style scoped>
