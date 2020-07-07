@@ -65,6 +65,7 @@ ul {
   top: 0;
   right: 0;
   margin: 18px;
+  z-index: 1;
 }
 ul > li {
   display: inline-block;

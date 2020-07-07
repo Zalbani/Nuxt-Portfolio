@@ -47,15 +47,9 @@ a.SocialMedia {
   text-decoration: none;
   color: white;
   width: 40px;
-  height: 60px;
-  border-radius: 30px;
   list-style: none;
   display: inline-block;
-  box-sizing: border-box;
   vertical-align: top;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-bottom: 40px;
   padding-left: 2px;
   transition-duration: 0.4s;
 }

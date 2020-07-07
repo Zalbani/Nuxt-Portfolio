@@ -19,25 +19,18 @@ main{
     margin-top: 100px;
 }
 
-
 .headp {
-    height: auto;
+    height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.headp > h1 {
-    margin: 0;
-    padding: 10%;
-    padding-bottom: 30px;
+.headp > h1, .headp > h2  {
     text-align: center;
     color: white;
-}
-
-.headp > h2 {
-
-    padding: 10%;
-    padding-top: 0;
-    text-align: center;
-    color: white;
+  padding: 15px;
 }
 
 .expli {
@@ -88,7 +81,9 @@ main{
 
 .grand:first-of-type {
     background-color: #4BD0D0;
-    width: 245px;
+    width: 246px;
+  margin-left: calc(50% - 123px);
+  margin-top: 10px;
     margin-bottom: 70px;
     text-align: center;
     height: 2px;
@@ -96,11 +91,13 @@ main{
 }
 
 .grand:last-of-type {
-    width: 170px;
-    background-color: #4BD0D0;
-    text-align: center;
-    height: 2px;
-    border: none;
+  width: 170px;
+  margin-left: calc(50% - 85px);
+  margin-top: 10px;
+  background-color: #4BD0D0;
+  text-align: center;
+  height: 2px;
+  border: none;
 }
 
 .detail > article > h3 {
@@ -112,6 +109,8 @@ main{
 .petit {
     text-align: center;
     width: 50px;
+  margin-left: calc(50% - 25px);
+  margin-top: 10px;
     height: 2px;
     border: none;
     background-color: #4BD0D0;
@@ -119,7 +118,9 @@ main{
 }
 
 .petit2 {
-    width: 125px;
+    width: 126px;
+  margin-left: calc(50% - 63px);
+  margin-top: 10px;
     text-align: center;
     height: 2px;
     border: none;
@@ -137,25 +138,6 @@ main{
     text-align: left;
 }
 
-.hc {
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    text-align: center;
-
-    background-color: white;
-    margin: 0;
-    margin-left: 4%;
-    margin-right: 4%;
-    -webkit-box-shadow: 3px 1px 6px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 3px 1px 6px 2px rgba(0, 0, 0, 0.4);
-    box-shadow: 3px 1px 6px 2px rgba(0, 0, 0, 0.4);
-    transition-duration: .4s;
-}
-
-.hc > figcaption > p {
-    padding: 12px;
-}
 
 .typo {
     text-align: left;
@@ -167,16 +149,6 @@ main{
 .typo > figcaption > h4 {
     color: #4BD0D0;
     padding-bottom: 20px;
-}
-
-.typo > p {
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    margin-left: 10%;
-    width: 35%;
-    height: 80px;
-    padding-top: 5px;
 }
 
 .typo > figcaption {
@@ -298,11 +270,6 @@ main{
     .detail>article{
         text-align: left;
     }
-    .hc{
-        margin-left: 3.5%;
-        margin-right: 3.5%;
-        margin-bottom: 45px;
-    }
     .detail>article>h2{
         padding-top: 15px;
     }
@@ -328,11 +295,6 @@ main{
     .typo>figcaption{
         margin: 0;
         width:40%;
-    }
-    .typo>p{
-        margin: 0;
-        padding-left: 25px;
-        width: 60%;
     }
     .maquet>img:first-of-type{
         margin: 5%;

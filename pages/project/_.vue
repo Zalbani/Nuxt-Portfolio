@@ -1,7 +1,13 @@
 <template>
   <main>
-    <a href="presentation_projet_reve_julia.html">
+    <a href="presentation_diagnostick.html">
       <svg class="arrow" viewBox="0 0 85 85">
+        <path class="arrow-out" d="M37.5 23.5l15 19-15 19" />
+        <path class="arrow-in" d="M2.092 23.5l15 19-15 19" />
+      </svg>
+    </a>
+    <a href="presentation_projet_reve_julia.html">
+      <svg class="arrow right" viewBox="0 0 85 85">
         <path class="arrow-out" d="M37.5 23.5l15 19-15 19" />
         <path class="arrow-in" d="M2.092 23.5l15 19-15 19" />
       </svg>
@@ -42,10 +48,7 @@
         <figure class="typo">
           <figcaption>
             <h4>Montsérat</h4>
-            <p>C'est une typographie marquante et lisible.</p>
           </figcaption>
-          <!-- @whitespace
--->
           <p style="font-family: 'Montserrat', sans-serif;">
             A Z E R T Y U I O P Q S D F G H J K L M W X C V B N a z e r t y u i
             o p q s d f g h j k l m w x c v b n :/ , ; ! % ? 1 2 3 4 5 6 7 8 9 0
@@ -61,7 +64,7 @@
       </article>
     </section>
     <section class="end">
-      <a href="../index.html"><h2>Accueil</h2></a
+      <nuxt-link to="/"><h2>Accueil</h2></nuxt-link
       ><!-- @whitespace
 --><a href="presentation_projet_reve_julia.html"><h2>Projet Suivant</h2></a>
     </section>
@@ -149,10 +152,10 @@ export default {
 /*off*/
 .arrow {
   position: absolute;
-  top: 85px;
-  height: 25%;
-  right: 0;
-  width: 140px;
+  top: 0;
+  height: 40vh;
+  right: 10px;
+  width: 90px;
 }
 #square path,
 #circle path,
@@ -181,24 +184,16 @@ export default {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   position: absolute;
-  top: 85px;
-  height: 25%;
-  left: 0;
-  width: 140px;
+  left: 10px;
+  top: 0;
+  height: 40vh;
+  width: 90px;
 }
 @media only screen and (max-width: 767px) {
   .arrow {
-    position: absolute;
-    top: 0px;
-    height: 19%;
-    right: 0;
     width: 60px;
   }
   .arrow.right {
-    position: absolute;
-    top: 0;
-    height: 19%;
-    left: 0;
     width: 60px;
   }
 }
