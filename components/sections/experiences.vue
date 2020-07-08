@@ -41,7 +41,7 @@ export default {
           specialite: 'Etudiant',
           date: '2018 - 2021',
           image: {
-            url: 'medias/images/ynov.png',
+            url: 'medias/images/ynov.svg',
             imageAlt: '',
             width: '220',
             height: '100',

@@ -1,6 +1,5 @@
 <template>
   <header>
-    <link rel="stylesheet" href="/css/mef.css" />
     <link rel="stylesheet" href="/css/mefp.css" />
     <link rel="stylesheet" href="/css/typo.css" />
     <link

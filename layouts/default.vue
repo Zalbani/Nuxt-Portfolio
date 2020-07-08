@@ -53,4 +53,13 @@ html {
   height: 100vh;
   width: 100%;
 }
+section {
+  height: 1050px;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    height: 600px;
+  }
+}
 </style>
