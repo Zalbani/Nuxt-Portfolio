@@ -9,8 +9,8 @@
         ME DECOUVRIR !
       </button>
     </section>
-    <section-realisations id="sectionReal" />
-    <section-experiences />
+    <component-section-realisations id="sectionReal" />
+    <component-section-experiences />
     <section class="desc">
       <h2 class="me">Qui suis-je ?</h2>
       <article>
@@ -33,20 +33,20 @@
         </p>
       </article>
     </section>
-    <section-competences />
+    <component-section-competences />
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
-import sectionCompetences from '~/components/sections/competences'
-import sectionExperiences from '~/components/sections/experiences'
-import sectionRealisations from '~/components/sections/realisations'
+import componentSectionCompetences from '~/components/sections/competences'
+import componentSectionExperiences from '~/components/sections/experiences'
+import componentSectionRealisations from '~/components/sections/realisations'
 export default {
   components: {
-    sectionCompetences,
-    sectionExperiences,
-    sectionRealisations,
+    componentSectionCompetences,
+    componentSectionExperiences,
+    componentSectionRealisations,
   },
   methods: {
     scrollTo(elem) {
@@ -200,6 +200,12 @@ h2.me {
 .desc > button {
   font-size: 25px;
 }
+.compet > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  letter-spacing: 0.4px;
+  font-weight: 100;
+}
 
 @media only screen and (max-width: 767px) {
   .head > h1 {
@@ -255,6 +261,18 @@ h2.me {
 
   .desc > button > hr {
     width: 180px;
+  }
+  .compet > h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+  }
+  .compet > article > h3 {
+    font-size: 14px;
+  }
+  .compet > article > p {
+    font-size: 16px;
+    padding-bottom: 0;
   }
 }
 </style>

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "title": "Bibliotheque Municipale de Lyon",
+    "specialite": "Webmestre",
+    "date": "2018 - 2021",
+    "image": {
+      "url": "/images/experiences/bml.png",
+      "imageAlt": "",
+      "width": "180",
+      "height": "100"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Master Informatique",
+    "specialite": "Etudiant",
+    "date": "2018 - 2021",
+    "image": {
+      "url": "/images/experiences/ynov.svg",
+      "imageAlt": "",
+      "width": "220",
+      "height": "100"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Comète",
+    "specialite": "Integrateur web",
+    "date": "2018",
+    "image": {
+      "url": "/images/experiences/comete.png",
+      "imageAlt": "logo de l'agence comete",
+      "width": "100",
+      "height": "125"
+    }
+  },
+  {
+    "id": 3,
+    "title": "MMI",
+    "specialite": "Etudiant",
+    "date": "2016 - 2018",
+    "image": {
+      "url": "/images/experiences/mmi.jpg",
+      "imageAlt":
+      "logo departement metier du multimedia et de l'internet a montbeliard",
+      "width": "100",
+      "height": "100"
+    }
+  }
+]

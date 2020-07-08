@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "name": "HTML",
+    "skills": ["Sémantique", "W3C"]
+  },
+  {
+    "id": 1,
+    "name": "CSS",
+    "skills": [
+      "Responsive",
+      "Bootstrap",
+      "Sass",
+      "Less",
+      "Foundation"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CMS",
+    "skills": ["Wordpress"]
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "skills": ["Vue", "Nuxt", "Node", "Angular", "ThreeJs", "D3"]
+  },
+  {
+    "id": 4,
+    "name": "BackEnd",
+    "skills": ["PHP", "MySQL", "MongoDB"]
+  },
+  {
+    "id": 5,
+    "name": "Développement",
+    "skills": ["Git", "Web Services", "API"]
+  },
+  {
+    "id": 6,
+    "name": "Referencement",
+    "skills": ["SEO", "SEA", "SMO"]
+  },
+  {
+    "id": 7,
+    "name": "Graphisme",
+    "skills": ["Photoshop", "Illustrator", "Indesign", "XD"]
+  },
+  {
+    "id": 8,
+    "name": "Audiovisuel",
+    "skills": ["Premiere pro", "After Effect"]
+  }
+]

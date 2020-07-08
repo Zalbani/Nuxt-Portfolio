@@ -1,28 +1,28 @@
 <template>
   <div>
-    <Particles />
+    <component-particles />
     <main class="container" data-scrollbar>
-      <FloatingLinks />
-      <Header />
+      <component-reseaux-sociaux />
+      <component-header />
       <Nuxt />
-      <Footer />
+      <component-footer />
     </main>
   </div>
 </template>
 <script>
 import Scrollbar from 'smooth-scrollbar'
 
-import Particles from '~/components/Particles'
-import Footer from '~/components/Footer'
-import Header from '~/components/Header'
-import FloatingLinks from '~/components/sections/reseauSociaux'
+import componentParticles from '~/components/particles'
+import componentFooter from '~/components/footer'
+import componentHeader from '~/components/header'
+import componentReseauxSociaux from '~/components/sections/reseauSociaux'
 
 export default {
   components: {
-    Particles,
-    Footer,
-    Header,
-    FloatingLinks,
+    componentParticles,
+    componentFooter,
+    componentHeader,
+    componentReseauxSociaux,
   },
   mounted() {
     Scrollbar.initAll()
@@ -55,6 +55,23 @@ html {
 }
 section {
   height: 1050px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li > a {
+  font-size: 28px;
 }
 
 @media only screen and (max-width: 767px) {

@@ -9,11 +9,11 @@
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
+      "url": "/images/realisations/projet_fast_cafet/fast_presentation.jpg",
       "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
     },
     "mockup": {
-      "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
+      "url": "/images/realisations/projet_fast_cafet/mokup_fast_cafet.jpg",
       "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
     },
     "technos": [
@@ -53,11 +53,11 @@
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_reve_julia/presentation_mokup.jpg",
+      "url": "/images/realisations/projet_reve_julia/presentation_mokup.jpg",
       "imageAlt": "Présentation appliquée projet information cancer"
     },
     "mockup": {
-      "url": "/medias/images/projet_reve_julia/presentation_mokup.jpg",
+      "url": "/images/realisations/projet_reve_julia/presentation_mokup.jpg",
       "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
@@ -96,11 +96,11 @@
     },
     "screens": [
       {
-        "url": "/medias/images/projet_reve_julia/accueil-pc.png",
+        "url": "/images/realisations/projet_reve_julia/accueil-pc.png",
         "imageAlt": "maquette projet page accueil"
       },
       {
-        "url": "/medias/images/projet_reve_julia/S'informer-pc.png",
+        "url": "/images/realisations/projet_reve_julia/S'informer-pc.png",
         "imageAlt": "maquette projet page s'informer"
       }
     ]
@@ -115,11 +115,11 @@
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_eshl/presentation_mokup_a.jpg",
+      "url": "/images/realisations/projet_eshl/presentation_mokup_a.jpg",
       "imageAlt": "Présentation appliquée projet eshl"
     },
     "mockup": {
-      "url": "/medias/images/projet_eshl/presentation_mokup.jpg",
+      "url": "/images/realisations/projet_eshl/presentation_mokup.jpg",
       "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
@@ -157,15 +157,15 @@
     },
     "screens": [
       {
-        "url": "/medias/images/projet_eshl/accueil-pc.png",
+        "url": "/images/realisations/projet_eshl/accueil-pc.png",
         "imageAlt": "maquette projet page accueil"
       },
       {
-        "url": "/medias/images/projet_eshl/actualite-pc.png",
+        "url": "/images/realisations/projet_eshl/actualite-pc.png",
         "imageAlt": "maquette projet page actualite"
       },
       {
-        "url": "/medias/images/projet_eshl/article-pc.png",
+        "url": "/images/realisations/projet_eshl/article-pc.png",
         "imageAlt": "maquette projet page article"
       }
     ]
@@ -180,11 +180,11 @@
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/diagnostick/Mockup_a.jpg",
+      "url": "/images/realisations/diagnostick/Mockup_a.jpg",
       "imageAlt": "Présentation appliquée projet diagnostick"
     },
     "mockup": {
-      "url": "/medias/images/diagnostick/Mockup.jpg",
+      "url": "/images/realisations/diagnostick/Mockup.jpg",
       "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
@@ -215,23 +215,23 @@
     },
     "screens": [
       {
-        "url": "/medias/images/diagnostick/timeline.jpg",
+        "url": "/images/realisations/diagnostick/timeline.jpg",
         "imageAlt": "maquette projet page timeline"
       },
       {
-        "url": "/medias/images/diagnostick/question_1.jpg",
+        "url": "/images/realisations/diagnostick/question_1.jpg",
         "imageAlt": "maquette projet page question 1"
       },
       {
-        "url": "/medias/images/diagnostick/question_2.jpg",
+        "url": "/images/realisations/diagnostick/question_2.jpg",
         "imageAlt": "maquette projet page question 2"
       },
       {
-        "url": "/medias/images/diagnostick/timeout.jpg",
+        "url": "/images/realisations/diagnostick/timeout.jpg",
         "imageAlt": "maquette projet page timeout"
       },
       {
-        "url": "/medias/images/diagnostick/inventory.jpg",
+        "url": "/images/realisations/diagnostick/inventory.jpg",
         "imageAlt": "maquette projet page inventory"
       }
     ]
@@ -246,11 +246,11 @@
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/carte_interactive/mockup_carre_a.jpg",
+      "url": "/images/realisations/carte_interactive/mockup_carre_a.jpg",
       "imageAlt": "Présentation appliquée projet information carte interactive"
     },
     "mockup": {
-      "url": "/medias/images/carte_interactive/mockup_rect.jpg",
+      "url": "/images/realisations/carte_interactive/mockup_rect.jpg",
       "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
@@ -288,11 +288,11 @@
     },
     "screens": [
       {
-        "url": "/medias/images/carte_interactive/show_slide.jpg",
+        "url": "/images/realisations/carte_interactive/show_slide.jpg",
         "imageAlt": "maquett projet page slide ouvert"
       },
       {
-        "url": "/medias/images/carte_interactive/empty.png",
+        "url": "/images/realisations/carte_interactive/empty.png",
         "imageAlt": "maquette projet page carte seul"
       }    ]
   }

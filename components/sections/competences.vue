@@ -3,20 +3,17 @@
     <h2>Mon savoir faire</h2>
     <article>
       <div
-        v-for="(skill, index) in skills"
-        :key="'skill_' + index"
-        class="skills"
+        v-for="(competence, index) in dataCompetences"
+        :key="'competence_' + index"
+        class="competence"
       >
-        <h3>{{ skill.name }}</h3>
+        <h3>{{ competence.name }}</h3>
         <p>
-          <span
-            v-for="(competence, j) in skill.competences"
-            :key="'competence_' + j"
-          >
-            <span v-if="j === skill.competences.length - 1">
-              {{ competence }}
+          <span v-for="(skill, j) in competence.skills" :key="'skill_' + j">
+            <span v-if="j === competence.skills.length - 1">
+              {{ skill }}
             </span>
-            <span v-else> {{ competence }} / </span>
+            <span v-else> {{ skill }} / </span>
           </span>
         </p>
         <br />
@@ -25,63 +22,11 @@
   </section>
 </template>
 <script>
+import dataCompetences from '~/static/data/competences.json'
+
 export default {
   data() {
-    return {
-      skills: [
-        {
-          id: 0,
-          name: 'HTML',
-          competences: ['Sémantique', 'W3C'],
-        },
-        {
-          id: 1,
-          name: 'CSS',
-          competences: [
-            'Responsive',
-            'Bootstrap',
-            'Sass',
-            'Less',
-            'Foundation',
-          ],
-        },
-        {
-          id: 2,
-          name: 'CMS',
-          competences: ['Wordpress'],
-        },
-        {
-          id: 3,
-          name: 'JavaScript',
-          competences: ['Vue', 'Nuxt', 'Node', 'Angular', 'ThreeJs', 'D3'],
-        },
-        {
-          id: 4,
-          name: 'BackEnd',
-          competences: ['PHP', 'MySQL', 'MongoDB'],
-        },
-        {
-          id: 5,
-          name: 'Développement',
-          competences: ['Git', 'Web Services', 'API'],
-        },
-        {
-          id: 6,
-          name: 'Referencement',
-          competences: ['SEO', 'SEA', 'SMO'],
-        },
-        {
-          id: 7,
-          name: 'Graphisme',
-          competences: ['Photoshop', 'Illustrator', 'Indesign', 'XD'],
-        },
-        {
-          id: 8,
-          name: 'Audiovisuel',
-          competences: ['Premiere pro', 'After Effect'],
-        },
-      ],
-    }
+    return { dataCompetences }
   },
 }
 </script>
@@ -103,11 +48,11 @@ export default {
   width: 40%;
 }
 
-.compet > article > .skills > h3 {
+.compet > article > .competence > h3 {
   color: #4bd0d0;
 }
 
-.compet > article > .skills > p > span {
+.compet > article > .competence > p > span {
   color: white;
   padding-bottom: 10px;
 }
@@ -119,13 +64,13 @@ export default {
   font-weight: 100;
 }
 
-.compet > article > .skills > h3 {
+.compet > article > .competence > h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: 100;
 }
 
-.compet > article > .skills > p {
+.compet > article > .competence > p {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 100;

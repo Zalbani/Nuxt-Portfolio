@@ -2,8 +2,8 @@
   <section class="expe">
     <h2>Mes expériences</h2>
     <div class="entries">
-      <experience
-        v-for="(experience, index) in experiences"
+      <component-experience
+        v-for="(experience, index) in dataExperiences"
         :key="'experience_' + index"
         :title="experience.title"
         :specialite="experience.specialite"
@@ -14,70 +14,26 @@
   </section>
 </template>
 <script>
-import experience from '~/components/oneExperience'
+import componentExperience from '~/components/oneExperience'
+
+import dataExperiences from '~/static/data/experiences.json'
 
 export default {
   components: {
-    experience,
+    componentExperience,
   },
   data() {
-    return {
-      experiences: [
-        {
-          id: 0,
-          title: 'Bibliotheque Municipale de Lyon',
-          specialite: 'Webmestre',
-          date: '2018 - 2021',
-          image: {
-            url: 'medias/images/bml.png',
-            imageAlt: '',
-            width: '180',
-            height: '100',
-          },
-        },
-        {
-          id: 1,
-          title: 'Master Informatique',
-          specialite: 'Etudiant',
-          date: '2018 - 2021',
-          image: {
-            url: 'medias/images/ynov.svg',
-            imageAlt: '',
-            width: '220',
-            height: '100',
-          },
-        },
-        {
-          id: 2,
-          title: 'Comète',
-          specialite: 'Integrateur web',
-          date: '2018',
-          image: {
-            url: 'medias/images/comete.png',
-            imageAlt: "logo de l'agence comete",
-            width: '100',
-            height: '125',
-          },
-        },
-        {
-          id: 3,
-          title: 'MMI',
-          specialite: 'Etudiant',
-          date: '2016 - 2018',
-          image: {
-            url: 'medias/images/mmi.jpg',
-            imageAlt:
-              "logo departement metier du multimedia et de l'internet a montbeliard",
-            width: '100',
-            height: '100',
-          },
-        },
-      ],
-    }
+    return { dataExperiences }
   },
 }
 </script>
 <style scoped>
+.expe > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  letter-spacing: 0.4px;
+  font-weight: 100;
+}
 .expe {
   position: relative;
   height: 1250px;
@@ -146,6 +102,11 @@ export default {
   font-size: 27px;
 }
 @media only screen and (max-width: 767px) {
+  .expe > h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+  }
   .expe {
     padding: 0;
   }

@@ -8,7 +8,7 @@ export default {
   },
   data() {
     return {
-      imgSrc: '/medias/images/V_Tech/' + this.techno.toLowerCase() + '.svg',
+      imgSrc: '/images/technos/' + this.techno.toLowerCase() + '.svg',
       imgAlt: 'logo pour la technologie : ' + this.techno,
     }
   },

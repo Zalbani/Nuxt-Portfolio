@@ -1,6 +1,6 @@
 <template>
-  <figure class="hc">
-    <div class="couleur c3" :style="style" />
+  <figure>
+    <div class="couleur" :style="style" />
     <figcaption>
       <p>{{ color }}</p>
     </figcaption>
@@ -24,7 +24,7 @@ export default {
   width: 150px;
 }
 
-.hc {
+figure {
   display: inline-block;
   box-sizing: border-box;
   vertical-align: top;
@@ -40,7 +40,7 @@ export default {
   transition-duration: 0.4s;
 }
 
-.hc > figcaption > p {
+figure > figcaption > p {
   padding: 12px;
 }
 @media only screen and (max-width: 767px) {
@@ -48,7 +48,7 @@ export default {
     width: 100%;
     height: 100px;
   }
-  .hc {
+  figure {
     width: 29%;
     margin: 2%;
   }

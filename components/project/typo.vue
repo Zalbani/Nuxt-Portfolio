@@ -41,6 +41,12 @@ export default {
 }
 </script>
 <style scoped>
+.typo {
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
 .typo > p {
   display: inline-block;
   vertical-align: bottom;
@@ -51,5 +57,49 @@ export default {
   font-size: 18px;
   line-height: 24px;
   font-weight: 100;
+}
+.typo > figcaption > h4 {
+  color: #4bd0d0;
+  padding-bottom: 20px;
+}
+
+.typo > figcaption {
+  margin-left: 20%;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 20%;
+}
+
+.typo > figcaption > h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+}
+.typo > figcaption > p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.typo > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 100;
+}
+@media only screen and (max-width: 767px) {
+  .typo > figcaption {
+    margin: 0;
+    width: 40%;
+  }
+  .typo > figcaption > h4 {
+    font-size: 22px;
+  }
+  .typo > figcaption > p {
+    font-size: 14px;
+  }
+  .typo > p {
+    font-size: 14px;
+    line-height: normal;
+  }
 }
 </style>

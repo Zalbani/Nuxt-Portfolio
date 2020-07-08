@@ -1,59 +1,29 @@
 <template>
   <ul>
-    <li v-for="(media, index) in medias" :key="'media_' + index">
-      <socialMedia
-        :over-color="media.overColor"
-        :url="media.url"
-        :icon-prefix="media.iconPrefix"
-        :icon-name="media.iconName"
+    <li
+      v-for="(socialMedia, index) in dataReseauxSociaux"
+      :key="'socialMedia_' + index"
+    >
+      <component-social-media
+        :over-color="socialMedia.overColor"
+        :url="socialMedia.url"
+        :icon-prefix="socialMedia.iconPrefix"
+        :icon-name="socialMedia.iconName"
       />
     </li>
   </ul>
 </template>
 <script>
-import socialMedia from '~/components/oneSocialMedia'
+import componentSocialMedia from '~/components/oneSocialMedia'
+
+import dataReseauxSociaux from '~/static/data/reseauxSociaux.json'
 
 export default {
   components: {
-    socialMedia,
+    componentSocialMedia,
   },
   data() {
-    return {
-      medias: [
-        {
-          id: 0,
-          name: 'linkedin',
-          url: 'https://www.linkedin.com/in/alban-pierson-853242140/',
-          iconPrefix: 'fab',
-          iconName: 'linkedin',
-          overColor: '#0e76a8',
-        },
-        {
-          id: 1,
-          name: 'Twitter',
-          url: 'https://twitter.com/AlbanPierson_?s=07',
-          iconPrefix: 'fab',
-          iconName: 'twitter',
-          overColor: '#4099ff',
-        },
-        {
-          id: 2,
-          name: 'Fabebook',
-          url: 'https://www.facebook.com/alban.pierson.5',
-          iconPrefix: 'fab',
-          iconName: 'facebook',
-          overColor: '#3b5998',
-        },
-        {
-          id: 3,
-          name: 'github',
-          url: 'https://github.com/Zalbani',
-          iconPrefix: 'fab',
-          iconName: 'github',
-          overColor: 'black',
-        },
-      ],
-    }
+    return { dataReseauxSociaux }
   },
 }
 </script>
