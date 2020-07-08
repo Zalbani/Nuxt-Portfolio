@@ -10,10 +10,10 @@
         <h3>{{ skill.name }}</h3>
         <p>
           <span
-            v-for="(competence, jindex) in skill.competences"
-            :key="'competence_' + jindex"
+            v-for="(competence, j) in skill.competences"
+            :key="'competence_' + j"
           >
-            <span v-if="index === skill.competences.length - 1">
+            <span v-if="j === skill.competences.length - 1">
               {{ competence }}
             </span>
             <span v-else> {{ competence }} / </span>

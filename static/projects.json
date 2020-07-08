@@ -48,48 +48,60 @@
     "title": "Le rêve de Julia",
     "actions": "Integration Front & Back",
     "description": [
-      "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard.",
-      "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants"
+      "Il s’agit d’un site web d’entraide relatif au cancer. Il recense différents articles sur des thèmes variés. C'est un site informatif sur les différents types de cancer, leurs traitements, la prévention ou la recherche.",
+      "Mais il s’agit également d’une plateforme d’échanges pour les personnes atteintes de cette pathologie"
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/projet_reve_julia/presentation_mokup.jpg",
+      "imageAlt": "Présentation appliquée projet information cancer"
     },
     "mockup": {
-      "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/projet_reve_julia/presentation_mokup.jpg",
+      "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
       "HTML",
       "CSS",
       "PHP",
-      "Jquery"
+      "Jquery",
+      "Javascript"
     ],
     "graphical_chart": {
       "description": [
-        "La charte graphique utilisée veut rappeler l'aspect de restauration et de nourriture qui est souvent associé à une couleur orangée.",
-        "La vivacité de la couleur par endroit est là dans le but d'attirer l'oeil."
+        "Pour notre harmonie, nous avons donc décidé de choisir des couleurs assez apaisantes qui inspirent à la confiance et qui ne se veulent pas agressives."
       ],
       "colors": [
-        "#111A1C",
-        "#E7511E",
-        "#eb9230"
+        "#E5FCC2",
+        "#9DE0AD",
+        "#45ADA8",
+        "#547980"
       ],
       "typographies": [
         {
-          "name": "Montsérat",
-          "description": "C'est une typographie marquante et lisible.",
-          "url": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
-          "cssProperty": "Montserrat",
+          "name": "Open Sans",
+          "description": "Typographie très sobre pour laisser les textes lisibles et simples",
+          "url": "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap",
+          "cssProperty": "Open Sans",
+          "serif": false
+        },
+        {
+          "name": "Athiti",
+          "description": "Afin d'avoir des titres évoquant le rêve",
+          "url": "https://fonts.googleapis.com/css2?family=Athiti&display=swap",
+          "cssProperty": "Athiti",
           "serif": false
         }
       ]
     },
     "screens": [
       {
-        "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-        "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+        "url": "/medias/images/projet_reve_julia/accueil-pc.png",
+        "imageAlt": "maquette projet page accueil"
+      },
+      {
+        "url": "/medias/images/projet_reve_julia/S'informer-pc.png",
+        "imageAlt": "maquette projet page s'informer"
       }
     ]
   },
@@ -98,48 +110,63 @@
     "title": "ESHL",
     "actions": "Design & Integration",
     "description": [
-      "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard.",
-      "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants"
+      "Il s’agit d’un site web pour une association sportive régionale. Étant un club de football, le site web sert de plateforme d'informations pour les adhérents du club. On pourra trouver sur le site des articles les résultats du dernier match, les prochaines rencontres, etc.",
+      "J'ai menée seul ce projet de se conception à la rélisation en passant par la communication"
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/projet_eshl/presentation_mokup_a.jpg",
+      "imageAlt": "Présentation appliquée projet eshl"
     },
     "mockup": {
-      "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/projet_eshl/presentation_mokup.jpg",
+      "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
       "HTML",
       "CSS",
+      "Bootstrap",
       "PHP",
       "Jquery"
     ],
     "graphical_chart": {
       "description": [
-        "La charte graphique utilisée veut rappeler l'aspect de restauration et de nourriture qui est souvent associé à une couleur orangée.",
-        "La vivacité de la couleur par endroit est là dans le but d'attirer l'oeil."
+        "our notre harmonie, j'ai décidé de choisir les couleurs représentatrices du club qui inspirent au challenge et à la compétition."
       ],
       "colors": [
-        "#111A1C",
-        "#E7511E",
-        "#eb9230"
+        "#FFCF1C",
+        "#A50505",
+        "#222222"
       ],
       "typographies": [
         {
-          "name": "Montsérat",
-          "description": "C'est une typographie marquante et lisible.",
-          "url": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
-          "cssProperty": "Montserrat",
+          "name": "Noto sans",
+          "description": "Typographie très sobre pour laisser les textes lisibles et simples",
+          "url": "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap",
+          "cssProperty": "Noto sans",
+          "serif": false
+        },
+        {
+          "name": "Oxygen",
+          "description": "Plus légère plus avec plus d'oxygène",
+          "url": "https://fonts.googleapis.com/css2?family=Oxygen&display=swap",
+          "cssProperty": "Oxygen",
           "serif": false
         }
       ]
     },
     "screens": [
       {
-        "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-        "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+        "url": "/medias/images/projet_eshl/accueil-pc.png",
+        "imageAlt": "maquette projet page accueil"
+      },
+      {
+        "url": "/medias/images/projet_eshl/actualite-pc.png",
+        "imageAlt": "maquette projet page actualite"
+      },
+      {
+        "url": "/medias/images/projet_eshl/article-pc.png",
+        "imageAlt": "maquette projet page article"
       }
     ]
   },
@@ -148,17 +175,17 @@
     "title": "Diagnostick",
     "actions": "Developpement & Integration",
     "description": [
-      "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard.",
-      "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants"
+      "Il s’agit d’un site web sous forme de questionnaire intéractif. Il a pour but de définir les connaissances que possède l'internaute dans le domaine de la fabrication addictive.",
+      "Ce site web a été crée pour l'entreprise polyshape, entreprise de production 3D spécialisé dans la fabrication additive ( procéder de fabrication )"
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/diagnostick/Mockup_a.jpg",
+      "imageAlt": "Présentation appliquée projet diagnostick"
     },
     "mockup": {
-      "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/diagnostick/Mockup.jpg",
+      "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
       "HTML",
@@ -168,13 +195,13 @@
     ],
     "graphical_chart": {
       "description": [
-        "La charte graphique utilisée veut rappeler l'aspect de restauration et de nourriture qui est souvent associé à une couleur orangée.",
-        "La vivacité de la couleur par endroit est là dans le but d'attirer l'oeil."
+        "Pour notre harmonie, nous avons décidé de choisir des couleurs calmes afin que l'internaute se sent à l'aise. Les couleurs sont d'une grande importance car elles marquent aussi l'avancée de l'internaute dans le questionnaire."
       ],
       "colors": [
-        "#111A1C",
-        "#E7511E",
-        "#eb9230"
+        "#68eee5",
+        "#21a0fd",
+        "#6655c9",
+        "#d268b2"
       ],
       "typographies": [
         {
@@ -188,8 +215,24 @@
     },
     "screens": [
       {
-        "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-        "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+        "url": "/medias/images/diagnostick/timeline.jpg",
+        "imageAlt": "maquette projet page timeline"
+      },
+      {
+        "url": "/medias/images/diagnostick/question_1.jpg",
+        "imageAlt": "maquette projet page question 1"
+      },
+      {
+        "url": "/medias/images/diagnostick/question_2.jpg",
+        "imageAlt": "maquette projet page question 2"
+      },
+      {
+        "url": "/medias/images/diagnostick/timeout.jpg",
+        "imageAlt": "maquette projet page timeout"
+      },
+      {
+        "url": "/medias/images/diagnostick/inventory.jpg",
+        "imageAlt": "maquette projet page inventory"
       }
     ]
   },
@@ -198,17 +241,17 @@
     "title": "Carte intéractive",
     "actions": "Developpement & Integration",
     "description": [
-      "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard.",
-      "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants"
+      "Il s’agit d’un ajout de fonctionanlités fait au site web : http://transfo-lab.com/ J'ai réalisé une carte intéractive administrable sous wordpress en utilisant notamment l'extension Mapael pour Jquery afin de gérer la carte du monde.",
+      "La fonction de cette carte est de recenser les transformateurs à travers le monde."
     ],
     "url": "html/presentation_projet_fast_cafet.html",
     "thumbnail": {
-      "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/carte_interactive/mockup_carre_a.jpg",
+      "imageAlt": "Présentation appliquée projet information carte interactive"
     },
     "mockup": {
-      "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-      "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+      "url": "/medias/images/carte_interactive/mockup_rect.jpg",
+      "imageAlt": "présentation maquette appliquée pc"
     },
     "technos": [
       "HTML",
@@ -222,24 +265,35 @@
         "La vivacité de la couleur par endroit est là dans le but d'attirer l'oeil."
       ],
       "colors": [
-        "#111A1C",
-        "#E7511E",
-        "#eb9230"
+        "#4FAEA1",
+        "#94D6D0",
+        "#3373BE"
       ],
       "typographies": [
         {
-          "name": "Montsérat",
-          "description": "C'est une typographie marquante et lisible.",
-          "url": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
-          "cssProperty": "Montserrat",
+          "name": "Open Sans",
+          "description": "Typographie très sobre pour laisser les textes lisibles et simples",
+          "url": "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap",
+          "cssProperty": "Open Sans",
+          "serif": false
+        },
+        {
+          "name": "Josefin Sans",
+          "description": "Typographie très sobre pour laisser les textes lisibles et simples",
+          "url": "https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap",
+          "cssProperty": "Josefin Sans",
           "serif": false
         }
       ]
     },
     "screens": [
       {
-        "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
-        "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
+        "url": "/medias/images/carte_interactive/show_slide.jpg",
+        "imageAlt": "maquett projet page slide ouvert"
+      },
+      {
+        "url": "/medias/images/carte_interactive/empty.png",
+        "imageAlt": "maquette projet page carte seul"
       }
     ]
   }
