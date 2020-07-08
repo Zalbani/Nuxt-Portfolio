@@ -3,13 +3,13 @@
     <h2>Mes réalisations</h2>
     <nuxt-link
       v-for="(project, index) in projects"
-      :key="index"
+      :key="'project_' + index"
       :to="{ path: '/project/' + project.id }"
     >
       <realisation
         :title="project.title"
         :actions="project.actions"
-        :image="project.image"
+        :image="project.thumbnail"
       />
     </nuxt-link>
   </section>

@@ -23,8 +23,12 @@
       <h2>{{ projects[$route.params.pathMatch].actions }}</h2>
     </section>
     <section class="expli">
-      <p>
-        {{ projects[$route.params.pathMatch].description }}
+      <p
+        v-for="(paragraphe, index) in projects[$route.params.pathMatch]
+          .description"
+        :key="'paragraph_' + index"
+      >
+        {{ paragraphe }}
       </p>
       <img
         :src="projects[$route.params.pathMatch].mockup.url"
@@ -35,36 +39,39 @@
       <article>
         <h2>Charte Graphique</h2>
         <hr class="grand" />
-        <p>
-          La charte graphique utilisée veut rappeler l'aspect de restauration et
-          de nourriture qui est souvent associé à une couleur orangée. La
-          vivacité de la couleur par endroit est là dans le but d'attirer
-          l'oeil.
+        <p
+          v-for="(paragraphe, index) in projects[$route.params.pathMatch]
+            .graphical_chart.description"
+          :key="'graphDesc_' + index"
+        >
+          {{ paragraphe }}
         </p>
 
         <h3>Couleurs</h3>
         <hr class="petit" />
         <color
-          v-for="(color, index) in projects[$route.params.pathMatch].colors"
-          :key="index"
+          v-for="(color, index) in projects[$route.params.pathMatch]
+            .graphical_chart.colors"
+          :key="'color_' + index"
           :color="color"
         />
         <h3>Typographies</h3>
         <hr class="petit2" />
-        <figure class="typo">
-          <figcaption>
-            <h4>Montsérat</h4>
-          </figcaption>
-          <p style="font-family: 'Montserrat', sans-serif;">
-            A Z E R T Y U I O P Q S D F G H J K L M W X C V B N a z e r t y u i
-            o p q s d f g h j k l m w x c v b n :/ , ; ! % ? 1 2 3 4 5 6 7 8 9 0
-          </p>
-        </figure>
+        <typo
+          v-for="(typo, index) in projects[$route.params.pathMatch]
+            .graphical_chart.typographies"
+          :key="'typo_' + index"
+          :typo-name="typo.name"
+          :typo-desc="typo.description"
+          :typo-url="typo.url"
+          :css-property="typo.cssProperty"
+          :serif="typo.serif"
+        />
         <h2>Technologies</h2>
         <hr class="grand" />
         <techno
           v-for="(techno, index) in projects[$route.params.pathMatch].technos"
-          :key="index"
+          :key="'techno_' + index"
           :techno="techno"
         />
       </article>
@@ -79,10 +86,11 @@
 <script>
 import color from '~/components/project/color'
 import techno from '~/components/project/techno'
+import typo from '~/components/project/typo'
 
 import projects from '~/static/projects.json'
 export default {
-  components: { color, techno },
+  components: { color, techno, typo },
   data() {
     return { projects }
   },

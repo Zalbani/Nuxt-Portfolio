@@ -3,8 +3,8 @@
     <h2>Mes expériences</h2>
     <div class="entries">
       <experience
-        v-for="experience in experiences"
-        :key="experience.id"
+        v-for="(experience, index) in experiences"
+        :key="'experience_' + index"
         :title="experience.title"
         :specialite="experience.specialite"
         :date="experience.date"

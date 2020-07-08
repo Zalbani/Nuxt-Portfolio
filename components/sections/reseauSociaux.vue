@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li v-for="media in medias" :key="media.id">
+    <li v-for="(media, index) in medias" :key="'media_' + index">
       <socialMedia
         :over-color="media.overColor"
         :url="media.url"

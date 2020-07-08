@@ -2,12 +2,16 @@
   <section class="compet">
     <h2>Mon savoir faire</h2>
     <article>
-      <div v-for="skill in skills" :key="skill.id" class="skills">
+      <div
+        v-for="(skill, index) in skills"
+        :key="'skill_' + index"
+        class="skills"
+      >
         <h3>{{ skill.name }}</h3>
         <p>
           <span
             v-for="(competence, index) in skill.competences"
-            :key="competence"
+            :key="'competence_' + index"
           >
             <span v-if="index === skill.competences.length - 1">
               {{ competence }}

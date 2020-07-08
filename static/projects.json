@@ -3,18 +3,42 @@
   "id": 0,
   "title": "Fast'Cafet",
   "actions": "Design & Integration",
-  "colors": ["#111A1C", "#E7511E", "#eb9230"],
+
   "technos": ["HTML","CSS","PHP","Jquery"],
-  "description": "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard. Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
+  "graphical_chart":{
+    "description": ["La charte graphique utilisée veut rappeler l'aspect de restauration et de nourriture qui est souvent associé à une couleur orangée.","La vivacité de la couleur par endroit est là dans le but d'attirer l'oeil."],
+    "colors": ["#111A1C", "#E7511E", "#eb9230"],
+    "typographies": [
+      {
+        "name": "Montsérat",
+        "description": "C'est une typographie marquante et lisible.",
+        "url": "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
+        "cssProperty": "Montserrat",
+        "serif" : false
+      }
+    ]
+  },
+  "description": ["Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard.",
+    "Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants"],
   "url": "html/presentation_projet_fast_cafet.html",
-  "image": {
+  "thumbnail": {
     "url": "/medias/images/projet_fast_cafet/fast_presentation.jpg",
     "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
   },
   "mockup": {
     "url": "/medias/images/projet_fast_cafet/mokup_fast_cafet.jpg",
     "imageAlt": "Présentation appliquée projet e-comerce cafeteria universitaire"
-  }
+  },
+    "screen" : [
+      {
+        "url": "",
+        "imageAlt": ""
+      },
+      {
+        "url": "",
+        "imageAlt": ""
+      }
+    ]
 },
   {
     "id": 1,
@@ -24,7 +48,7 @@
     "technos": ["HTML", "CSS", "PHP", "Jquery"],
     "description": "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard. Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
     "url": "html/presentation_projet_fast_cafet.html",
-    "image": {
+    "thumbnail": {
       "url": "/medias/images/projet_reve_julia/presentation_mokup.jpg",
       "imageAlt": "Présentation appliquée projet information cancer"
     },
@@ -41,7 +65,7 @@
     "technos": ["HTML", "CSS", "PHP", "Jquery"],
     "description": "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard. Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
     "url": "html/presentation_projet_fast_cafet.html",
-    "image": {
+    "thumbnail": {
       "url": "/medias/images/projet_eshl/presentation_mokup_a.jpg",
       "imageAlt": "Présentation_appliquée_projet_eshl"
     },
@@ -58,7 +82,7 @@
     "technos": ["HTML", "CSS", "PHP", "Jquery"],
     "description": "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard. Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
     "url": "html/presentation_projet_fast_cafet.html",
-    "image": {
+    "thumbnail": {
       "url": "/medias/images/diagnostick/Mockup_a.jpg",
       "imageAlt": "Présentation_appliquée_projet_diagnostick"
     },
@@ -75,7 +99,7 @@
     "technos": ["HTML", "CSS", "PHP", "Jquery"],
     "description": "Ce site web est un site d'e-commerce pour la caféteria du campus de Montbéliard. Il est destiné à résoudre les problématiques de lenteur de la file d'attente et du problème de disponibilité des produits souhaités par les étudiants",
     "url": "html/presentation_projet_fast_cafet.html",
-    "image": {
+    "thumbnail": {
       "url": "/medias/images/carte_interactive/mockup_carre_a.jpg",
       "imageAlt": "Présentation_appliquée_projet_information_carte_interactive"
     },

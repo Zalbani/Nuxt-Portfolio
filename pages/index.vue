@@ -57,7 +57,6 @@ export default {
       Scrollbar.getAll()[0].scrollTo(0, posScrollTo.top, 500)
     },
   },
-  layout: 'default',
 }
 </script>
 <style scoped>
