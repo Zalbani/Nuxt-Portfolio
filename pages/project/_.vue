@@ -76,10 +76,30 @@
         />
       </article>
     </section>
+    <section
+      v-if="projects[$route.params.pathMatch].screens != undefined"
+      class="maquet"
+    >
+      <img
+        v-for="(screen, index) in projects[$route.params.pathMatch].screens"
+        :key="'screen_' + index"
+        :src="screen.url"
+        :alt="screen.imageAlt"
+      />
+    </section>
     <section class="end">
       <nuxt-link to="/"><h2>Accueil</h2></nuxt-link
       ><!-- @whitespace
---><a href="presentation_projet_reve_julia.html"><h2>Projet Suivant</h2></a>
+--><nuxt-link
+        v-if="parseInt($route.params.pathMatch, 10) != projects.length - 1"
+        :to="(parseInt($route.params.pathMatch, 10) + 1).toString()"
+        ><h2>Projet Suivant</h2></nuxt-link
+      >
+      <nuxt-link
+        v-else
+        :to="(parseInt($route.params.pathMatch, 10) - 1).toString()"
+        ><h2>Projet Precedent</h2></nuxt-link
+      >
     </section>
   </main>
 </template>
