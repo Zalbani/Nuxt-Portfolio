@@ -42,7 +42,6 @@ import Scrollbar from 'smooth-scrollbar'
 import sectionCompetences from '~/components/sections/competences'
 import sectionExperiences from '~/components/sections/experiences'
 import sectionRealisations from '~/components/sections/realisations'
-
 export default {
   components: {
     sectionCompetences,
@@ -56,6 +55,19 @@ export default {
       // Move the scroll bar to the element position
       Scrollbar.getAll()[0].scrollTo(0, posScrollTo.top, 500)
     },
+  },
+  head() {
+    return {
+      title: 'Alban Pierson | Portfolio | Etudiant MMI',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Développeur Web curieux et autonome, étudiant en développement web en master Informatique 2eme année à Ynov Informatique - Lyon.',
+        },
+      ],
+    }
   },
 }
 </script>

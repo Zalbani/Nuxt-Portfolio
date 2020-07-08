@@ -114,6 +114,19 @@ export default {
   data() {
     return { projects }
   },
+  head() {
+    return {
+      title: projects[this.$nuxt.$route.path.split('/')[2]].title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            projects[this.$nuxt.$route.path.split('/')[2]].description[0],
+        },
+      ],
+    }
+  },
 }
 </script>
 <style scoped>
