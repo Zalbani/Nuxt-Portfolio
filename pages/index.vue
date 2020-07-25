@@ -71,208 +71,141 @@ export default {
   },
 }
 </script>
-<style scoped>
-h2.me {
-  text-align: center;
-  padding-top: 125px;
-  padding-bottom: 125px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 70px;
-  letter-spacing: 0.4px;
-  font-weight: 100;
-}
-.head {
-  color: white;
-  text-align: center;
-  width: 100%;
-}
+<style scoped lang="sass">
+h2.me
+  text-align: center
+  padding-top: 125px
+  padding-bottom: 125px
+  font-family: 'Roboto', sans-serif
+  font-size: 70px
+  letter-spacing: 0.4px
+  font-weight: 100
+.head
+  color: white
+  text-align: center
+  width: 100%
+  hr
+    &:first-of-type
+      margin-bottom: 40px
+      margin-top: 40px
+      width: 70%
+      margin-left: 15%
+      color: white
+      background-color: white
+      height: 3px
+      border: none
+    &:last-of-type
+      margin-top: 100px
+      margin-bottom: 80px
+      width: 10%
+      color: white
+      background-color: white
+      height: 3px
+      border: none
+      display: none
+  h1
+    padding-top: 190px
+    margin: 0
+    font-family: 'Roboto', sans-serif
+    font-size: 90px
+    letter-spacing: 0.8px
+    font-weight: 100
+  h2
+    font-family: 'Roboto', sans-serif
+    font-size: 85px
+    letter-spacing: 0.8px
+    font-weight: 100
+  button
+    margin-top: 120px
+    border-radius: 4px
+    border: 1px white solid
+    background: none
+    color: white
+    padding: 16px 25px
+    transition-duration: 0.4s
+    font-family: 'Roboto', sans-serif
+    letter-spacing: 1px
+    &:hover
+      transition-duration: 0.4s
+      background: white
+      color: black
 
-.head hr:first-of-type {
-  margin-bottom: 40px;
-  margin-top: 40px;
-  width: 70%;
-  margin-left: 15%;
-  color: white;
-  background-color: white;
-  height: 3px;
-  border: none;
-}
+.desc
+  background-color: #efefef
+  height: auto
+  article
+    padding-bottom: 15%
+    h2
+      color: black
+      padding: 15% 15% 25px
+      font-size: 25px
+    p
+      color: #525252
+      padding-bottom: 15px
+      padding-right: 15%
+      padding-left: 15%
+      font-size: 25px
+  button
+    margin-top: 120px
+    margin-left: 15%
+    background-color: #efefef
+    border: none
+    text-align: left
+    font-size: 25px
+    hr
+      margin-top: 10px
+      width: 250px
+      height: 2px
+      background-color: black
+      border: none
+.compet > h2
+  font-family: 'Roboto', sans-serif
+  font-size: 70px
+  letter-spacing: 0.4px
+  font-weight: 100
+@media only screen and (max-width: 767px)
+  .head
+    h1
+      font-size: 36px
+      letter-spacing: 0.4px
+    h2
+      font-size: 34px
+      letter-spacing: 0.4px
+    button
+      margin-top: 120px
+    hr
+      &:last-of-type
+        display: none
+      &:first-of-type
+        height: 2px
+        width: 50%
+        margin-left: 25%
+        margin-top: 30px
+        margin-bottom: 30px
+  .desc
+    article
+      padding-top: 35px
+      padding-bottom: 35px
+      h2, p
+        font-size: 16px
+        padding: 0 5% 4%
 
-.head hr:last-of-type {
-  margin-top: 100px;
-  margin-bottom: 80px;
-  width: 10%;
-  color: white;
-  background-color: white;
-  height: 3px;
-  border: none;
-  display: none;
-}
-
-.head > h1 {
-  padding-top: 190px;
-  margin: 0;
-}
-
-.head > button {
-  margin-top: 120px;
-  border-radius: 4px;
-  border: 1px white solid;
-  background: none;
-  color: white;
-  padding: 16px;
-  padding-right: 25px;
-  padding-left: 25px;
-  transition-duration: 0.4s;
-}
-
-.head > button:hover {
-  transition-duration: 0.4s;
-  background: white;
-  color: black;
-}
-.desc {
-  background-color: #efefef;
-  height: auto;
-}
-.desc > article {
-  padding-bottom: 15%;
-}
-
-.desc > article > h2 {
-  color: black;
-  padding-bottom: 25px;
-  padding-top: 15%;
-  padding-right: 15%;
-  padding-left: 15%;
-}
-
-.desc > article > p {
-  color: #525252;
-  padding-bottom: 15px;
-  padding-right: 15%;
-  padding-left: 15%;
-}
-
-.desc > button {
-  margin-top: 120px;
-  margin-left: 15%;
-  background-color: #efefef;
-  border: none;
-  text-align: left;
-}
-
-.desc > button > hr {
-  margin-top: 10px;
-  width: 250px;
-  height: 2px;
-  background-color: black;
-  border: none;
-}
-
-.head > h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 90px;
-  letter-spacing: 0.8px;
-  font-weight: 100;
-}
-
-.head > h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 85px;
-  letter-spacing: 0.8px;
-  font-weight: 100;
-}
-
-.head > button {
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
-}
-
-.desc > article > h2 {
-  font-size: 25px;
-}
-
-.desc > article > p {
-  font-size: 25px;
-}
-
-.desc > button {
-  font-size: 25px;
-}
-.compet > h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 70px;
-  letter-spacing: 0.4px;
-  font-weight: 100;
-}
-
-@media only screen and (max-width: 767px) {
-  .head > h1 {
-    font-size: 36px;
-    letter-spacing: 0.4px;
-  }
-
-  .head > h2 {
-    font-size: 34px;
-    letter-spacing: 0.4px;
-  }
-  .desc > article > h2,
-  .desc > article > p {
-    font-size: 16px;
-  }
-
-  .desc > button {
-    font-size: 18px;
-  }
-  .head > hr:last-of-type {
-    display: none;
-  }
-
-  .head > button {
-    margin-top: 120px;
-  }
-
-  .head > hr:first-of-type {
-    height: 2px;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .desc > article {
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
-
-  .desc > article > h2,
-  .desc > article > p {
-    padding: 5%;
-    padding-bottom: 4%;
-    padding-top: 0;
-  }
-
-  .desc > button {
-    padding: 0;
-    margin-top: 8%;
-    margin-left: 25px;
-  }
-
-  .desc > button > hr {
-    width: 180px;
-  }
-  .compet > h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
-    letter-spacing: 0.2px;
-  }
-  .compet > article > h3 {
-    font-size: 14px;
-  }
-  .compet > article > p {
-    font-size: 16px;
-    padding-bottom: 0;
-  }
-}
+    button
+      font-size: 18px
+      padding: 0
+      margin-top: 8%
+      margin-left: 25px
+      hr
+        width: 180px
+  .compet
+    h2
+      font-family: 'Open Sans', sans-serif
+      font-size: 32px
+      letter-spacing: 0.2px
+    article
+      h3
+        font-size: 14px
+      p
+        font-size: 16px
+        padding-bottom: 0
 </style>
