@@ -27,19 +27,17 @@ export default {
   },
 }
 </script>
-<style scoped>
-ul {
-  list-style: none;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 18px;
-  z-index: 1;
-}
-ul > li {
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-}
+<style scoped lang="sass">
+ul
+  list-style: none
+  padding: 0
+  position: absolute
+  top: 0
+  right: 0
+  margin: 18px
+  z-index: 1
+  li
+    display: inline-block
+    box-sizing: border-box
+    vertical-align: top
 </style>

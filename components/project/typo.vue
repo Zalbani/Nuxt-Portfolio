@@ -40,66 +40,47 @@ export default {
   },
 }
 </script>
-<style scoped>
-.typo {
-  text-align: left;
-  margin: 0;
-  width: 100%;
-  margin-bottom: 40px;
-}
-.typo > p {
-  display: inline-block;
-  vertical-align: bottom;
-  margin-left: 10%;
-  width: 35%;
-  height: 80px;
-  padding-top: 5px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 100;
-}
-.typo > figcaption > h4 {
-  color: #4bd0d0;
-  padding-bottom: 20px;
-}
-
-.typo > figcaption {
-  margin-left: 20%;
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-  width: 20%;
-}
-
-.typo > figcaption > h4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 28px;
-  font-weight: 100;
-}
-.typo > figcaption > p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-.typo > p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 100;
-}
-@media only screen and (max-width: 767px) {
-  .typo > figcaption {
-    margin: 0;
-    width: 40%;
-  }
-  .typo > figcaption > h4 {
-    font-size: 22px;
-  }
-  .typo > figcaption > p {
-    font-size: 14px;
-  }
-  .typo > p {
-    font-size: 14px;
-    line-height: normal;
-  }
-}
+<style scoped lang="sass">
+.typo
+  text-align: left
+  width: 100%
+  margin: 0 0 40px
+  p
+    display: inline-block
+    vertical-align: bottom
+    margin-left: 10%
+    width: 35%
+    height: 80px
+    padding-top: 5px
+    font-size: 18px
+    line-height: 24px
+    font-weight: 100
+    font-family: 'Roboto', sans-serif
+  figcaption
+    margin-left: 20%
+    display: inline-block
+    box-sizing: border-box
+    vertical-align: top
+    width: 20%
+    h4
+      color: #4bd0d0
+      padding-bottom: 20px
+      font-family: 'Roboto', sans-serif
+      font-size: 28px
+      font-weight: 100
+    p
+      font-family: 'Open Sans', sans-serif
+      font-size: 18px
+@media only screen and (max-width: 767px)
+  .typo
+    p
+      font-size: 14px
+      line-height: normal
+    figcaption
+      margin: 0
+      width: 40%
+      h4
+        font-size: 22px
+      p
+        font-size: 14px
 </style>

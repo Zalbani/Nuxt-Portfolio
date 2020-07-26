@@ -42,25 +42,21 @@ export default {
   },
 }
 </script>
-<style>
-a.SocialMedia {
-  text-decoration: none;
-  color: white;
-  width: 40px;
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 2px;
-  transition-duration: 0.4s;
-}
-a.SocialMedia > i {
-  padding-top: 12px;
-  color: white;
-  transition-duration: 0.4s;
-}
-
-a.SocialMedia:hover {
-  transition-duration: 0.4s;
-  transform: translate(0, -8px);
-}
+<style lang="sass" scoped>
+a.SocialMedia
+  text-decoration: none
+  color: white
+  width: 40px
+  list-style: none
+  display: inline-block
+  vertical-align: top
+  padding-left: 2px
+  transition-duration: 0.4s
+  i
+    padding-top: 12px
+    color: white
+    transition-duration: 0.4s
+  &:hover
+    transition-duration: 0.4s
+    transform: translate(0, -8px)
 </style>

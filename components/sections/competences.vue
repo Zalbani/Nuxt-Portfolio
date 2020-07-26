@@ -30,68 +30,47 @@ export default {
   },
 }
 </script>
-<style scoped>
-.compet {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-.compet > h2 {
-  text-align: center;
-  color: white;
-  vertical-align: top;
-  width: 60%;
-}
-
-.compet > article {
-  width: 40%;
-}
-
-.compet > article > .competence > h3 {
-  color: #4bd0d0;
-}
-
-.compet > article > .competence > p > span {
-  color: white;
-  padding-bottom: 10px;
-}
-
-.compet > h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 70px;
-  letter-spacing: 0.4px;
-  font-weight: 100;
-}
-
-.compet > article > .competence > h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-  font-weight: 100;
-}
-
-.compet > article > .competence > p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  font-weight: 100;
-}
-
-@media only screen and (max-width: 767px) {
-  .compet {
-    display: unset;
-  }
-  .compet > h2 {
-    width: 100%;
-    padding-top: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
-    letter-spacing: 0.2px;
-  }
-
-  .compet > article {
-    width: 100%;
-    text-align: left;
-    padding: 9% 20px 20px 20px;
-  }
-}
+<style scoped lang="sass">
+.compet
+  display: flex
+  flex-wrap: nowrap
+  justify-content: center
+  align-items: center
+  h2
+    text-align: center
+    color: white
+    vertical-align: top
+    width: 60%
+    font-family: 'Roboto', sans-serif
+    font-size: 70px
+    letter-spacing: 0.4px
+    font-weight: 100
+  article
+    width: 40%
+    .competence
+      h3
+        color: #4bd0d0
+        font-family: 'Roboto', sans-serif
+        font-size: 22px
+        font-weight: 100
+      p
+        font-family: 'Roboto', sans-serif
+        font-size: 24px
+        font-weight: 100
+        span
+          color: white
+          padding-bottom: 10px
+@media only screen and (max-width: 767px)
+  .compet
+    display: unset
+    h2
+      width: 100%
+      padding-top: 40px
+      font-family: 'Open Sans', sans-serif
+      font-size: 32px
+      letter-spacing: 0.2px
+    article
+      width: 100%
+      text-align: left
+      padding: 9% 20px 20px 20px
 </style>

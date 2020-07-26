@@ -14,18 +14,15 @@ export default {
   },
 }
 </script>
-<style scoped>
-.shield {
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-  width: 200px;
-  padding: 3%;
-}
+<style scoped lang="sass">
+.shield
+  display: inline-block
+  box-sizing: border-box
+  vertical-align: top
+  width: 200px
+  padding: 3%
 
-@media only screen and (max-width: 767px) {
-  .shield {
-    width: 32%;
-  }
-}
+@media only screen and (max-width: 767px)
+  .shield
+    width: 32%
 </style>
