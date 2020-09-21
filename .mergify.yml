@@ -20,3 +20,18 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+  - name: automatic merge for restyled bot pull requests
+    conditions:
+      - author=restyled-io
+    actions:
+      merge:
+        method: merge
+  - name: automatic merge Zalbani pull requests
+    conditions:
+      - author=Zalbani
+      - "status-success=build-and-test"
+      - "status-success=netlify/friendly-newton-306e59/deploy-preview"
+      - "status-success=restyled"
+    actions:
+      merge:
+        method: merge
