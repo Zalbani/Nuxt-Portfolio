@@ -3,6 +3,8 @@ pull_request_rules:
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
       - "status-success=build-and-test"
+      - "status-success=netlify/friendly-newton-306e59/deploy-preview"
+      - "status-success=restyled"
     actions:
       merge:
         method: merge
@@ -10,6 +12,8 @@ pull_request_rules:
     conditions:
       - author=imgbot[bot]
       - "status-success=build-and-test"
+      - "status-success=netlify/friendly-newton-306e59/deploy-preview"
+      - "status-success=restyled"
     actions:
       merge:
         method: merge
@@ -17,6 +21,8 @@ pull_request_rules:
     conditions:
       - author=snyk-bot
       - "status-success=build-and-test"
+      - "status-success=netlify/friendly-newton-306e59/deploy-preview"
+      - "status-success=restyled"
     actions:
       merge:
         method: merge
@@ -35,3 +41,8 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+
+
+
+
+
