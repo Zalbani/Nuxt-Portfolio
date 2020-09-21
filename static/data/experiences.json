@@ -5,7 +5,7 @@
     "specialite": "Webmestre",
     "date": "2018 - 2021",
     "image": {
-      "url": "/images/experiences/bml.png",
+      "url": "/images/experiences/banner-b.jbg",
       "imageAlt": "",
       "width": "180",
       "height": "100"
@@ -42,8 +42,7 @@
     "date": "2016 - 2018",
     "image": {
       "url": "/images/experiences/mmi.jpg",
-      "imageAlt":
-      "logo departement metier du multimedia et de l'internet a montbeliard",
+      "imageAlt": "logo departement metier du multimedia et de l'internet a montbeliard",
       "width": "100",
       "height": "100"
     }
