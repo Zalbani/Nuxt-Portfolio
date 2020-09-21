@@ -2,21 +2,21 @@ pull_request_rules:
   - name: automatic merge for Dependabot pull requests
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
-      - "status-success=ci/circleci: requirements"
+      - "status-success=build-and-test"
     actions:
       merge:
         method: merge
   - name: automatic merge for ImgBot pull requests
     conditions:
       - author=imgbot[bot]
-      - "status-success=ci/circleci: requirements"
+      - "status-success=build-and-test"
     actions:
       merge:
         method: merge
   - name: automatic merge for Snyk bot pull requests
     conditions:
       - author=snyk-bot
-      - "status-success=ci/circleci: requirements"
+      - "status-success=build-and-test"
     actions:
       merge:
         method: merge
