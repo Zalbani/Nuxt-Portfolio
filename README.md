@@ -2,6 +2,7 @@
   <img src="https://github.com/Zalbani/Nuxt-Portfolio/blob/master/home.png" alt="portfolio screen"/>
 </p>
 <p align="center">
+  <a href="https://mergify.io" alt="mergify-status"><img src="https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/Zalbani/Nuxt-Portfolio&style=flat" /></a>
   <a href="https://david-dm.org/Zalbani/Nuxt-Portfolio" alt="Dependencies"><img src="https://david-dm.org/Zalbani/Nuxt-Portfolio.svg" /></a>
   <a href="http://www.gnu.org/licenses/gpl-3.0" alt="License: GPL v3"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" /></a>
 </p>
