@@ -17,7 +17,7 @@ pull_request_rules:
         method: merge
   - name: automatic merge for Snyk bot pull requests
     conditions:
-      - author=snyk-bot[bot]
+      - author=snyk-bot
       - "status-success=build-and-test"
       - "status-success=netlify/friendly-newton-306e59/deploy-preview"
     actions:
