@@ -55,24 +55,14 @@ $ yarn generate
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+* 1.0.0
+    * Migration to Nuxt.Js
 
 ## Authors
 
-Alban Pierson – [@YourTwitter](https://twitter.com/dbader_org) – pro.pierson.alban@gmail.com
+Alban Pierson – pro.pierson.alban@gmail.com
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/Zalbani/](https://github.com/Zalbani)
 
 ## License
 
