@@ -1,10 +1,5 @@
 export default {
   /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: 'universal',
-  /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
@@ -29,15 +24,18 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@fortawesome/fontawesome-svg-core/styles.css', 'normalize.css/normalize.css'],
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
+    'normalize.css/normalize.css',
+  ],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    {src: '~/plugins/particles.js', mode: 'client'},
-    {src: '~/plugins/fontawesome.js'}
-    ],
+    { src: '~/plugins/particles.js', mode: 'client' },
+    { src: '~/plugins/fontawesome.js' },
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -53,10 +51,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-  ],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
