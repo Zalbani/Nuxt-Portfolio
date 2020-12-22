@@ -48,14 +48,6 @@ export default {
     componentSectionExperiences,
     componentSectionRealisations,
   },
-  methods: {
-    scrollTo(elem) {
-      // Get element position to scroll to
-      const posScrollTo = this.$el.querySelector(elem).getBoundingClientRect()
-      // Move the scroll bar to the element position
-      Scrollbar.getAll()[0].scrollTo(0, posScrollTo.top, 500)
-    },
-  },
   head() {
     return {
       title: 'Alban Pierson | Portfolio | Etudiant MMI',
@@ -68,6 +60,14 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    scrollTo(elem) {
+      // Get element position to scroll to
+      const posScrollTo = this.$el.querySelector(elem).getBoundingClientRect()
+      // Move the scroll bar to the element position
+      Scrollbar.getAll()[0].scrollTo(0, posScrollTo.top, 500)
+    },
   },
 }
 </script>
