@@ -3468,10 +3468,15 @@ core-js-compat@^3.8.0:
     browserslist "^4.15.0"
     semver "7.0.0"
 
-core-js@^2.4.0, core-js@^2.6.5, core-js@^2.6.9:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
+core-js@^3.6.4:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.0.tgz#790b1bb11553a2272b36e2625c7179db345492f8"
+  integrity sha512-PyFBJaLq93FlyYdsndE5VaueA9K5cNB7CGzeCj191YYLhkQM0gdZR2SKihM70oF0wdqKSKClv/tEBOpoRmdOVQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -9788,12 +9793,12 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-smooth-scrollbar@^8.5.3:
-  version "8.5.3"
-  resolved "https://registry.yarnpkg.com/smooth-scrollbar/-/smooth-scrollbar-8.5.3.tgz#44a3090c85ad44422af87690e6051ef0c60bb0fc"
-  integrity sha512-0cBr/pbwgdPXLukpvVzx3LtBxRURwitdEMCuzykp7urVPb7+Cx9UhIT6CtprENM9Ghulgn+I78YYTA9MRH380g==
+smooth-scrollbar@^8.6.0:
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/smooth-scrollbar/-/smooth-scrollbar-8.6.0.tgz#d01cd7faba51707eecc95d1b42ee278c7cbe2c7e"
+  integrity sha512-f43WHhDcdx9vSl98WWNRFv7iG4ymqQOmtL+p0VBI3J0Bpe11l1vjafoYnOa4mZ5oWtAGSfo1mxQReLjhLuU3Ow==
   dependencies:
-    core-js "^2.6.9"
+    core-js "^3.6.4"
     lodash-es "^4.17.15"
     tslib "^1.10.0"
 
