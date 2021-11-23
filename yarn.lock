@@ -10362,10 +10362,10 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-smooth-scrollbar@^8.6.3:
-  version "8.6.3"
-  resolved "https://registry.yarnpkg.com/smooth-scrollbar/-/smooth-scrollbar-8.6.3.tgz#411489e29cc1e7e10ad311511c67ea1fe5197cce"
-  integrity sha512-YTGK6+Vhw53sbdFVD8FSr+z2Ugp7hGAxKD3tNtYFq23fGn/oknWTwpWxym5aCYMXdzNNeKtiWbdu5op5bauzAw==
+smooth-scrollbar@^8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/smooth-scrollbar/-/smooth-scrollbar-8.7.0.tgz#3fda1ab87f8348e0c69742cb22be51fd0f6cfa13"
+  integrity sha512-ckjRYfdDY6qrYh8X9rr4dfl60YALX11dzQfoQhiqhEGSEVMfEB2HMBW7mw8/j3lrkw1gml4A9HVvz/8qLfo44Q==
   dependencies:
     core-js "^3.6.4"
     lodash-es "^4.17.21"
