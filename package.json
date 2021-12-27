@@ -23,7 +23,7 @@
     "@nuxtjs/pwa": "^3.3.4",
     "@nuxtjs/axios": "^5.13.3",
     "eslint-loader": "^4.0.2",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.1",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.8",
     "particles.js": "^2.0.0",
