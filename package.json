@@ -27,7 +27,7 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.15.8",
     "particles.js": "^2.0.0",
-    "sass-loader": "^10.2.0",
+    "sass-loader": "^10.2.1",
     "smooth-scrollbar": "^8.7.0"
   },
   "devDependencies": {
